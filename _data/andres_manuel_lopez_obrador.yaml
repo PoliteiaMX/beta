@@ -1,0 +1,170 @@
+---
+id: andres-manuel-lopez-obrador
+name: Andrés Manuel López Obrador
+avatarUrl: http://i.imgur.com/48MXywT.png
+description: Presidente Nacional del Movimiento Regeneración Nacional
+
+social:
+  twitter:
+    username: lopezobrador_
+  facebook:
+    url: https://www.facebook.com/lopezobrador.org.mx
+    username: lopezobrador.org.mx
+  website:
+    url: http://lopezobrador.org.mx
+
+transparency:
+- title: 3de3
+  url: http://3de3.mx/#/perfil?nombre=lopez_obrador_andres_manuel
+
+politicalPartyHistory:
+- id: pri
+  acronym: PRI
+  start: 1976
+  end: 1983
+  duration: 12
+  # Calculate on the fly?
+  durationPercentage: 33.333
+- id: prd
+  acronym: PRD
+  start: 1989
+  end: 2012
+  duration: 23
+  durationPercentage: 63.888
+- id: morena
+  acronym: Morena
+  start: 2012
+  end: now
+  duration: 5
+  durationPercentage: 2.777
+
+publicPositions:
+- title: Jefe de Gobierno de Distrito Federal
+  start: 2000-12-05
+  end: 2005-07-29
+- title: Director de Promoción Social del Instituto Nacional del Consumidor
+  start: 1984
+  end: 1984
+- title: Director del Instituto Indigenista de Tabasco
+  start: 1977
+  end: 1982
+
+politicsPositions:
+- title: Presidente Nacional del Movimiento Regeneración Nacional
+  start: 2015-11-20
+  end: now
+- title: Presidente del Consejo Nacional del Movimiento Regeneración Nacional
+  start: 2014-11-20
+  end: 2015-11-20
+- title: Presidente Nacional del Partido de la Revolución Democrática
+  start: 1999
+  end: 1996
+- title: Presidente Estatal del Partido Revolucionario Institucional de Tabasco
+  start: 1983
+  end: 1983
+
+academicHistory:
+- degree: Licenciado en Ciencias Políticas y Administración Pública
+  institution: Universidad Nacional Autónoma de México
+
+topics:
+- title: Matrimonio igualitario
+  position:
+    id: indefinite
+    title: Indefinida
+  description:
+    El candidato afirma que el tema debe someterse a un plebiscito ciudadano para decidir.
+  quote:
+    text: Lo fundamental es la honestidad, eso [legalizar el aborto y los matrimonios gay], con todo respeto y autenticidad, lo considero como algo no tan importante [...]
+    date: 2016
+  sources:
+  - title: Para López Obrador, legalizar el aborto y el matrimonio gay no es algo “tan importante”
+    source: Animal Político
+    url: http://www.animalpolitico.com/2015/06/para-lopez-obrador-legalizar-el-aborto-y-el-matrimonio-gay-no-es-algo-tan-importante/
+
+- title: Despenalización del aborto
+  position:
+    id: indefinite
+    title: Indefinida
+  description:
+    El candidato afirma que el tema debe someterse a un plebiscito ciudadano para decidir.
+  quote:
+    text: "[...] yo soy partidario de las libertades, pero cuando se trata de esos temas, vamos a que los ciudadanos sean los que resuelvan."
+    date: 2016
+  sources:
+  - title: "Puntualiza AMLO: sobre libertad sexual y aborto es la gente la que decide"
+    source: Excélsior
+    url: http://www.excelsior.com.mx/nacional/2016/10/30/1125276
+  - title: "Recriminan mujeres a AMLO postura sobre el aborto"
+    source: Proceso
+    url: http://www.proceso.com.mx/375002/recriminan-mujeres-a-amlo-postura-sobre-el-aborto
+
+- title: Adopción por parejas del mismo sexo
+  position:
+    id: unknown
+    title: Desconocida
+
+- title: Pena de muerte
+  position:
+    id: against
+    title: En contra
+  description:
+    El candidato se ha manifestado en contra de la pena de muerte.
+  quote:
+    text: "No debe de haber pena de muerte en ningún país del mundo."
+    date: 2014
+  sources:
+  - title: "Las autoridades deben respetar la vida privada de los ciudadanos e impedir la intervención de celulares: AMLO"
+    source: lopezobrador.org.mx
+    url: http://lopezobrador.org.mx/2014/01/17/fotos-amlo-en-reunion-con-representantes-de-morena-en-manzanillo-colima/
+
+- title: Ayuda a personas mayores
+  position:
+    id: inFavour
+    title: A favor
+  description:
+    El candidato está a favor.
+
+- title: Eutanasia
+  position:
+    id: unknown
+    title: Desconocida
+  description:
+    ¿Plebiscito?
+
+- title: Austeridad gubernamental
+  position:
+    id: inFavour
+    title: A favor
+
+- title: Calentamiento global
+  position:
+    id: unknown
+    title: Desconocida
+
+- title: Seguro médico universal
+  position:
+    id: indefinite
+    title: Indefinida
+  description:
+    Andrés Manuel sugiere un plebiscito.
+
+bibliography:
+- title: Andrés Manuel López Obrador
+  source: Wikipedia (español)
+  url: https://es.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador
+- title: AMLO es el nuevo presidente de Morena
+  source: Milenio
+  url: http://www.milenio.com/politica/amlo_morena-amlo_presidente_morena-amlo_lider_morena-elecciones_morena_0_631737045.html
+- title: Borran paso de AMLO por el PRI en su semblanza oficial
+  source: Animal Político
+  url: http://www.animalpolitico.com/2012/01/borran-paso-de-amlo-por-el-pri-en-su-semblanza-oficial/
+- title: Andrés Manuel López Obrador
+  source: RT
+  url: https://actualidad.rt.com/rtpedia/234835-andres-manuel-lopez-obrador
+- title: Semblanza
+  source: lopezobrador.org.mx
+  url: http://lopezobrador.org.mx/semblanza/
+- title: Gobernantes del Distrito Federal
+  source: Agencia de Gestión Urbana de la Ciudad de México
+  url: http://data.agu.cdmx.gob.mx/gobernantes-del-distrito-federal/
