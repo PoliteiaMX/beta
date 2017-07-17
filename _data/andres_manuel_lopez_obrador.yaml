@@ -149,6 +149,91 @@ topics:
   description:
     Andrés Manuel sugiere un plebiscito.
 
+elections:
+- title: Presidencia de la República
+  date: 2012
+  coalition:
+    name: Movimiento Progresista
+    parties:
+    - id: prd
+      name: Partido de la Revolución Democrática
+    - id: pt
+      name: Partido del Trabajo
+    - id: convergencia
+      name: Convergencia
+  result:
+    id: lost
+    label: Perdida
+    votes:
+      percentage: 31.59%
+      total: 15896999
+- title: Presidencia de la República
+  date: 2006
+  coalition:
+    name: Movimiento Progresista
+    parties:
+    - id: prd
+      name: Partido de la Revolución Democrática
+    - id: pt
+      name: Partido del Trabajo
+    - id: mc
+      name: Movimiento Ciudadano
+  result:
+    id: lost
+    label: Perdida
+    votes:
+      percentage: 35.29%
+      total: 14756350
+- title: Jefatura de Gobierno del Distrito Federal
+  date: 2000
+  coalition:
+    name: (Sin coalición, candidato común)
+    parties:
+    - id: prd
+      name: Partido de la Revolución Democrática
+    - id: pt
+      name: Partido del Trabajo
+    - id: convergencia
+      name: Convergencia
+    - id: sociedad_nacionalista
+      name: Partido de la Sociedad Nacionalista
+    - id: alianza_social
+      name: Partido Aliana Social
+  result:
+    id: won
+    label: Ganada
+    votes:
+      percentage: 37.7%
+      total: 1641398
+- title: Gubernatura de Tabasco
+  date: 1994
+  party:
+    id: prd
+    name: Partido de la Revolución Democrática
+  result:
+    id: lost
+    label: Perdida
+    votes:
+      percentage: 37.75%
+      total: 200087
+- title: Gubernatura de Tabasco
+  date: 1988
+  coalition:
+    name: Frente Democrático Nacional
+    parties:
+    - id: pps
+      name: Partido Popular Socialista
+    - id: pms
+      name: Partido Mexicano Socialista
+    - id: pfcrn
+      name: Partido del Frente Cardenista de Reconstrucción Nacional
+  result:
+    id: lost
+    label: Perdida
+    votes:
+      percentage: 20.9%
+      total: 54890
+
 bibliography:
 - title: Andrés Manuel López Obrador
   source: Wikipedia (español)

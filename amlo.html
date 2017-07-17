@@ -78,6 +78,28 @@
   {% endfor %}
 </ul>
 
+<h3>Elecciones</h3>
+
+<ul>
+  {% for election in person.elections %}
+  <li>
+    <p>{{ election.title }}, {{ election.date }}: {{ election.result.label }}</p>
+    {% if election.party.name %}
+    <p>{{ election.party.name }}</p>
+    {% endif %}
+    {% if election.coalition.name %}
+    <p>
+      {{ election.coalition.name }}:
+      {% for party in election.coalition.parties %}
+      {{ party.name }},
+      {% endfor %}
+    </p>
+    {% endif %}
+    <p>{{ election.result.votes.percentage }} ({{ election.result.votes.total }} votos)</p>
+  </li>
+  {% endfor %}
+</ul>
+
 <h3>Bibliografía</h3>
 
 <ul>
