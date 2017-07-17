@@ -170,7 +170,7 @@ elections:
 - title: Presidencia de la República
   date: 2006
   coalition:
-    name: Movimiento Progresista
+    name: Coalición Por el Bien de Todos
     parties:
     - id: prd
       name: Partido de la Revolución Democrática
