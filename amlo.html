@@ -110,6 +110,13 @@
       {% endfor %}
     </ul>
 
+    <h3>Controversias</h3>
+
+    {% for controversy in person.controversies %}
+    <h4>{{ controversy.title }}</h4>
+    <div>{{ controversy.description | markdownify }}</div>
+    {% endfor %}
+
     <h3>Bibliografía</h3>
 
     <ul>
