@@ -1,0 +1,59 @@
+mc:
+  id: mc
+  label: Movimiento Ciudadano
+  shortLabel: MC
+  colorScheme:
+    - "#ff8300"
+
+morena:
+  id: morena
+  label: Morena
+  shortLabel: Morena
+  colorScheme:
+    - "#bf2c1a"
+
+pan:
+  id: pan
+  label: Partido Acción Nacional
+  shortLabel: PAN
+  colorScheme:
+    - "#06338e"
+
+prd:
+  id: prd
+  label: Partido de la Revolución Democrática
+  shortLabel: PRD
+  colorScheme:
+    - "#ffcb01"
+
+pri:
+  id: pri
+  label: Partido Revolucionario Institucional
+  shortLabel: PRI
+  colorScheme:
+    - "#00923f"
+
+pvem:
+  id: pvem
+  label: Partido Verde Ecologista de México
+  shortLabel: PVEM
+  colorScheme:
+    - "#50b747"
+
+# Metaparties
+
+independent:
+  id: independent
+  label: Independiente
+  shortLabel: Independiente
+  colorScheme:
+    - "#bdc3c7"
+    # - "#34495e"
+
+others:
+  id: others
+  label: Otros
+  shortLabel: Otros
+  colorScheme:
+    # - "#bdc3c7"
+    - "#34495e"
