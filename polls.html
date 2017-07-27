@@ -1,0 +1,58 @@
+---
+---
+{% assign parties = site.data.parties %}
+{% assign pollSources = site.data.polls %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Encuestas &bullet; &pi;</title>
+
+    <style type="text/css">
+      html {
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    {% for source in pollSources %}
+    {% assign latestPoll = source.polls[0] %}
+    <h2>{{ source.name }}</h2>
+
+    <p><a href="{{ latestPoll.url }}">Publicada el {{ latestPoll.date }}</a></p>
+
+    {% for result in latestPoll.results %}
+    {% assign party = parties[result.partyId] %}
+    <div style="background: #ecf0f1;
+                background-image:
+                  repeating-linear-gradient(-45deg,
+                    rgba(255, 255, 255, 0.25),
+                    rgba(255, 255, 255, 0.25) 4px,
+                    rgb(255, 255, 255) 4px,
+                    rgb(255, 255, 255) 7px);
+                height: auto;
+                box-sizing: border-box;
+                font-size: 0;">
+      <div style="display: inline-block;
+                  background-color: {{ party.colorScheme[0] }};
+                  width: {{ result.percentage }}%;
+                  height: 12px;
+                  box-sizing: border-box;"></div>
+    </div>
+
+    <h3 style="margin: 2px 0 16px;">
+      {{ party.label }}: {{ result.percentage }}%
+    </h3>
+    {% endfor %}
+
+    <p>Tamaño de muestra: {{ latestPoll.sampleSize }}</p>
+    <p>Margen de error: {{ latestPoll.errorMargin }}</p>
+    <p>Confianza: {{ latestPoll.trust }}</p>
+    <p>Tasa de rechazo: {{ latestPoll.rejectionRate }}</p>
+
+    {% endfor %}
+  </body>
+</html>

@@ -1,0 +1,25 @@
+- name: Grupo Reforma
+  polls:
+  - date: 2017-07-23
+    url: http://gruporeforma-blogs.com/encuestas/?p=7322
+    sampleSize: 1200
+    errorMargin: "±3.3%"
+    trust: 95%
+    rejectionRate: 26%
+    results:
+      - partyId: morena
+        percentage: 28
+      - partyId: pan
+        percentage: 23
+      - partyId: pri
+        percentage: 17
+      - partyId: independent
+        percentage: 10
+      - partyId: others
+        percentage: 8
+      - partyId: prd
+        percentage: 6
+      - partyId: pvem
+        percentage: 5
+      - partyId: mc
+        percentage: 3
