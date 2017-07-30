@@ -1,0 +1,117 @@
+- partyId: pan
+  candidates:
+  - name: Margarita Zavala Gómez
+    occupation: Ex-diputada Federal
+    avatarUrl: margarita_zavala.jpg
+    social:
+      twitter: https://twitter.com/mzavalagc
+
+  - name: Ricardo Anaya Cortés
+    occupation: Presidente Nacional del Partido Acción Nacional
+    avatarUrl: ricardo_anaya.jpg
+    social:
+      twitter: https://twitter.com/ricardoanayac
+
+  - name: Rafael Moreno Valle
+    occupation: Ex-gobernador de Puebla, Presidente de la Comisión Política Nacional del PAN
+    avatarUrl: rafael_moreno_valle.jpg
+    social:
+      twitter: https://twitter.com/rafamorenovalle
+
+- partyId: pri
+  candidates:
+  - name: Miguel Ángel Osorio Chong
+    occupation: Secretario de Gobernación
+    avatarUrl: miguel_angel_osorio_chong.jpg
+    social:
+      twitter: https://twitter.com/osoriochong
+
+  - name: Eruviel Ávila Villegas
+    occupation: Gobernador del Estado de México
+    avatarUrl: eruviel_avila.jpg
+    social:
+      twitter: https://twitter.com/eruviel_avila
+
+  - name: Luis Videgaray Caso
+    occupation: Secretario de Relaciones Exteriores
+    avatarUrl: luis_videgaray.jpg
+    social:
+      twitter: https://twitter.com/lvidegaray
+
+  - name: José Ramón Narro Robles
+    occupation: Secretario de Salud, Ex-rector de la UNAM
+    avatarUrl: jose_narro_robles.jpg
+    social:
+      twitter: https://twitter.com/josenarror
+
+  - name: Enrique de la Madrid Cordero
+    occupation: Secretario de Turismo
+    avatarUrl: enrique_de_la_madrid.jpg
+    social:
+      twitter: https://twitter.com/edelamadrid
+
+  - name: Manlio Fabio Beltrones
+    occupation: Ex-gobernador de Sonora
+    avatarUrl: manlio_fabio_beltrones.jpg
+    social:
+      twitter: https://twitter.com/mfbeltrones
+
+  - name: Aurelio Nuño Mayer
+    occupation: Secretario de Educación Pública
+    avatarUrl: aurelio_nuno.jpg
+    social:
+      twitter: https://twitter.com/aurelionuno
+
+  - name: José Antonio Meade
+    occupation: Secretario de Hacienda y Crédito Público
+    avatarUrl: jose_antonio_meade.jpg
+    social:
+      twitter: https://twitter.com/joseameadek
+
+- partyId: prd
+  candidates:
+  - name: Miguel Ángel Mancera
+    occupation: Jefe de Gobierno de la Ciudad de México
+    avatarUrl: miguel_angel_mancera.jpg
+    social:
+      twitter: https://twitter.com/manceramiguelmx
+
+  - name: Silvano Aureoles Conejo
+    occupation: Gobernador de Michoacán
+    avatarUrl: silvano_aureoles.jpg
+    social:
+      twitter: https://twitter.com/silvano_a
+
+- partyId: morena
+  candidates:
+  - name: Andrés Manuel López Obrador
+    occupation: Presidente Nacional de MORENA
+    avatarUrl: andres_manuel_lopez_obrador.jpeg
+    social:
+      twitter: https://twitter.com/lopezobrador_
+
+- partyId: independent
+  candidates:
+  - name: Jaime Rodríguez "El Bronco"
+    occupation: Gobernador de Nuevo León
+    avatarUrl: jaime_rodriguez.jpg
+    social:
+      twitter: https://twitter.com/jaimerdznl
+
+  - name: Pedro Ferríz de Con
+    occupation: Periodista
+    avatarUrl: pedro_ferriz_de_con.jpg
+    social:
+      twitter: https://twitter.com/pedroferriz
+
+  - name: Armando Ríos Piter
+    occupation: Senador por Guerrero
+    avatarUrl: armando_rios_piter.jpg
+    social:
+      twitter: https://twitter.com/riospiterjaguar
+
+  - name: Emilio Álvarez Icaza
+    occupation: Ex-presidente de la Comisión de Derechos Humanos del Distrito Federal
+    avatarUrl: emilio_alvarez_icaza.jpg
+    social:
+      twitter: https://twitter.com/emilioalvarezi
