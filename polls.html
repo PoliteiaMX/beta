@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Encuestas &bullet; &pi;</title>
+    <title>Encuestas rumbo a 2018 &bullet; &pi;</title>
 
     <style type="text/css">
       html {
@@ -19,8 +19,11 @@
     </style>
   </head>
   <body>
+    <h1>Encuestas rumbo a 2018</h1>
+
     {% for source in pollSources %}
     {% assign latestPoll = source.polls[0] %}
+    {% assign max_percentage = 100 %}
     <h2>{{ source.name }}</h2>
 
     <p><a href="{{ latestPoll.url }}">Publicada el {{ latestPoll.date }}</a></p>
@@ -39,7 +42,7 @@
                 font-size: 0;">
       <div style="display: inline-block;
                   background-color: {{ party.colorScheme[0] }};
-                  width: {{ result.percentage }}%;
+                  width: {{ result.percentage | times:100.0 | divided_by:max_percentage | round:1 }}%;
                   height: 12px;
                   box-sizing: border-box;"></div>
     </div>
