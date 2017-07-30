@@ -47,15 +47,19 @@
                   box-sizing: border-box;"></div>
     </div>
 
-    <h3 style="margin: 2px 0 16px;">
-      {{ party.label }}: {{ result.percentage }}%
+    <h3 style="margin: .25em 0 1em; font-weight: normal;">
+      <span style="font-weight: bold; display: inline-block; width: 2.5em; text-align: right;">
+        {{ result.percentage }}%</span>
+      {{ party.label }}
     </h3>
     {% endfor %}
 
-    <p>Tamaño de muestra: {{ latestPoll.sampleSize }}</p>
-    <p>Margen de error: {{ latestPoll.errorMargin }}</p>
-    <p>Confianza: {{ latestPoll.trust }}</p>
-    <p>Tasa de rechazo: {{ latestPoll.rejectionRate }}</p>
+    <div style="font-size: .75em;">
+      <p>Tamaño de muestra: {{ latestPoll.sampleSize }}</p>
+      <p>Margen de error: {{ latestPoll.errorMargin }}</p>
+      <p>Confianza: {{ latestPoll.trust }}</p>
+      <p>Tasa de rechazo: {{ latestPoll.rejectionRate }}</p>
+    </div>
 
     {% endfor %}
   </body>
