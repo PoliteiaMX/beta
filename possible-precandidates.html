@@ -18,6 +18,43 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         font-size: 16px;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
+
+      .candidate-list {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      @media (min-width: 720px) {
+        .candidate {
+          display: inline-block;
+          width: 33%;
+        }
+      }
+
+      .candidate__avatar-container {
+        display: table-cell;
+        vertical-align: top;
+      }
+
+      .candidate__avatar {
+        display: inline-block;
+        width: 4em;
+        height: 4em;
+        margin-right: 1em;
+        border-radius: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      .candidate__info {
+        display: table-cell;
+        vertical-align: top;
+      }
+
+      .candidate__name {
+        margin-top: 0;
+      }
     </style>
   </head>
   <body>
@@ -27,14 +64,17 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
     {% assign party = parties[possiblePrecandidateList.partyId] %}
     <h2>{{ party.label }}</h2>
 
-    <ul>
+    <ul class="candidate-list">
       {% for candidate in possiblePrecandidateList.candidates %}
-      <li>
-        <h3>
-          <img src="{{ site.github.url }}/assets/{{ candidate.avatarUrl }}"
-               style="width: 4em; height: 4em;"> {{ candidate.name }}
-        </h3>
-        <p>{{ candidate.occupation }}</p>
+      <li class="candidate">
+        <div class="candidate__avatar-container">
+          <span class="candidate__avatar"
+              style="background-image: url('{{ site.github.url }}/assets/{{ candidate.avatarUrl }}');"></span>
+        </div>
+        <div class="candidate__info">
+          <h3 class="candidate__name">{{ candidate.name }}</h3>
+          <p>{{ candidate.occupation }}</p>
+        </div>
       </li>
       {% endfor %}
     </ul>
