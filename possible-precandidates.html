@@ -30,7 +30,10 @@ permalink: /es/2018/elecciones-presidenciales/posibles-precandidatos
     <ul>
       {% for candidate in possiblePrecandidateList.candidates %}
       <li>
-        <h3><img src="/assets/{{ candidate.avatarUrl }}" style="width: 4em; height: 4em;"> {{ candidate.name }}</h3>
+        <h3>
+          <img src="{{ site.github.url }}/assets/{{ candidate.avatarUrl }}"
+               style="width: 4em; height: 4em;"> {{ candidate.name }}
+        </h3>
         <p>{{ candidate.occupation }}</p>
       </li>
       {% endfor %}
