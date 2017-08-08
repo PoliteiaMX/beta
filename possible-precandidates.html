@@ -71,6 +71,8 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
+        border-width: .1875em;
+        border-style: solid;
       }
 
       .candidate__info {
@@ -95,7 +97,8 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       <li class="candidate">
         <div class="candidate__avatar-container">
           <span class="candidate__avatar"
-              style="background-image: url('{{ site.github.url }}/assets/{{ candidate.avatarUrl }}');"></span>
+              style="background-image: url('{{ site.github.url }}/assets/{{ candidate.avatarUrl }}');
+                     border-color: {{ party.colorScheme[0] }};"></span>
         </div>
         <div class="candidate__info">
           <h3 class="candidate__name">{{ candidate.name }}</h3>
