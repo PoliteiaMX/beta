@@ -82,6 +82,12 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
 
       .candidate__name {
         margin-top: 0;
+        margin-bottom: .25em;
+      }
+
+      .candidate__position {
+        margin-top: 0;
+        margin-bottom: .5em;
       }
     </style>
   </head>
@@ -102,7 +108,7 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         </div>
         <div class="candidate__info">
           <h3 class="candidate__name">{{ candidate.name }}</h3>
-          <p>{{ candidate.occupation }}</p>
+          <p class="candidate__position">{{ candidate.occupation }}</p>
         </div>
       </li>
       {% endfor %}
