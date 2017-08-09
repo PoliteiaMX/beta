@@ -92,6 +92,24 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         margin-top: 0;
         margin-bottom: .5em;
       }
+
+      .candidate__website, .candidate__twitter, .candidate__facebook {
+        font-size: 1.25em;
+        text-decoration: none;
+        margin-right: .25em;
+      }
+
+      .candidate__website {
+        color: #34495e;
+      }
+
+      .candidate__twitter {
+        color: #1da1f2;
+      }
+
+      .candidate__facebook {
+        color: #3b5998;
+      }
     </style>
   </head>
   <body>
@@ -112,6 +130,23 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         <div class="candidate__info">
           <h3 class="candidate__name">{{ candidate.name }}</h3>
           <p class="candidate__position">{{ candidate.occupation }}</p>
+          <div class="candidate__social">
+            {% if candidate.social.website %}
+            <a href="{{ candidate.social.website }}" class="candidate__website">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+            </a>
+            {% endif %}
+            {% if candidate.social.twitter %}
+            <a href="{{ candidate.social.twitter }}" class="candidate__twitter">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            {% endif %}
+            {% if candidate.social.facebook %}
+            <a href="{{ candidate.social.facebook }}" class="candidate__facebook">
+              <i class="fa fa-facebook-official " aria-hidden="true"></i>
+            </a>
+            {% endif %}
+          </div>
         </div>
       </li>
       {% endfor %}
