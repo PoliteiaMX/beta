@@ -7,13 +7,15 @@
       twitter: https://twitter.com/mzavalagc
 
   - name: Ricardo Anaya Cortés
-    occupation: Presidente Nacional del Partido Acción Nacional
+    occupation: Presidente Nacional del PAN
+    # Partido Acción Nacional
     avatarUrl: ricardo_anaya.jpg
     social:
       twitter: https://twitter.com/ricardoanayac
 
   - name: Rafael Moreno Valle
-    occupation: Ex-gobernador de Puebla, Presidente de la Comisión Política Nacional del PAN
+    occupation: Ex-gobernador de Puebla
+    # Presidente de la Comisión Política Nacional del PAN
     avatarUrl: rafael_moreno_valle.jpg
     social:
       twitter: https://twitter.com/rafamorenovalle
@@ -39,7 +41,8 @@
       twitter: https://twitter.com/lvidegaray
 
   - name: José Ramón Narro Robles
-    occupation: Secretario de Salud, Ex-rector de la UNAM
+    occupation: Secretario de Salud
+    # Ex-rector de la UNAM
     avatarUrl: jose_narro_robles.jpg
     social:
       twitter: https://twitter.com/josenarror
