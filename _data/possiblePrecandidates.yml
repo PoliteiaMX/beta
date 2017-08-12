@@ -9,6 +9,15 @@
       twitter: https://twitter.com/lopezobrador_/
       website: http://lopezobrador.org.mx/
 
+- partyId: nueva_alianza
+  candidates:
+  - name: Gabriel Quadri de la Torre
+    occupation: Ex-presidente del Instituto Nacional de Ecología
+    avatarUrl: gabriel_quadri.jpg
+    social:
+      facebook: https://facebook.com/GabrielQuadri/
+      twitter: https://twitter.com/g_quadri/
+
 - partyId: pan
   candidates:
   - name: Ernesto Ruffo
