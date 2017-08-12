@@ -164,22 +164,31 @@
     occupation: Senador por Guerrero
     avatarUrl: armando_rios_piter.jpg
     social:
+      facebook: https://facebook.com/riospiterjaguar/
+      instagram: https://www.instagram.com/riospiterjaguar/
       twitter: https://twitter.com/riospiterjaguar/
 
   - name: Emilio Álvarez Icaza
     occupation: Ex-presidente de la Comisión de Derechos Humanos del Distrito Federal
     avatarUrl: emilio_alvarez_icaza.jpg
     social:
+      facebook: https://facebook.com/emilioalvarezicaza/
       twitter: https://twitter.com/emilioalvarezi/
 
   - name: Jaime Rodríguez "El Bronco"
     occupation: Gobernador de Nuevo León
     avatarUrl: jaime_rodriguez.jpg
     social:
+      facebook: https://facebook.com/JaimeRodriguezElBronco/
+      instagram: https://www.instagram.com/jaimerodriguezcalderon/
       twitter: https://twitter.com/jaimerdznl/
+      website: http://www.jaimerodriguez.mx/
 
   - name: Pedro Ferríz de Con
     occupation: Periodista
     avatarUrl: pedro_ferriz_de_con.jpg
     social:
+      facebook: https://www.facebook.com/PedroFerrizC/
+      instagram: https://www.instagram.com/ferrizdecon/
       twitter: https://twitter.com/pedroferriz/
+      website: http://www.ferriz.com.mx/
