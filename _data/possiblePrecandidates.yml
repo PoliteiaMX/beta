@@ -31,15 +31,6 @@
       facebook: https://facebook.com/Miguelmarquezm/
       twitter: https://twitter.com/miguelmarquezm/
 
-  - name: Ricardo Anaya Cortés
-    occupation: Presidente Nacional del PAN
-    # Partido Acción Nacional
-    avatarUrl: ricardo_anaya.jpg
-    social:
-      facebook: https://facebook.com/RicardoAnayaC/
-      twitter: https://twitter.com/ricardoanayac/
-      website: http://ricardoanaya.com.mx/
-
   - name: Rafael Moreno Valle
     occupation: Ex-gobernador de Puebla
     # Presidente de la Comisión Política Nacional del PAN
@@ -49,36 +40,23 @@
       twitter: https://twitter.com/rafamorenovalle/
       website: http://morenovalle.org/
 
+  - name: Ricardo Anaya Cortés
+    occupation: Presidente Nacional del PAN
+    # Partido Acción Nacional
+    avatarUrl: ricardo_anaya.jpg
+    social:
+      facebook: https://facebook.com/RicardoAnayaC/
+      twitter: https://twitter.com/ricardoanayac/
+      website: http://ricardoanaya.com.mx/
+
 - partyId: pri
   candidates:
-  - name: Miguel Ángel Osorio Chong
-    occupation: Secretario de Gobernación
-    avatarUrl: miguel_angel_osorio_chong.jpg
+  - name: Aurelio Nuño Mayer
+    occupation: Secretario de Educación Pública
+    avatarUrl: aurelio_nuno.jpg
     social:
-      facebook: https://facebook.com/MiguelOsorioChong/
-      twitter: https://twitter.com/osoriochong/
-
-  - name: Eruviel Ávila Villegas
-    occupation: Gobernador del Estado de México
-    avatarUrl: eruviel_avila.jpg
-    social:
-      facebook: https://facebook.com/eruviel/
-      twitter: https://twitter.com/eruviel_avila/
-      website: http://www.eruviel.com/
-
-  - name: Luis Videgaray Caso
-    occupation: Secretario de Relaciones Exteriores
-    avatarUrl: luis_videgaray.jpg
-    social:
-      twitter: https://twitter.com/lvidegaray/
-
-  - name: José Ramón Narro Robles
-    occupation: Secretario de Salud
-    # Ex-rector de la UNAM
-    avatarUrl: jose_narro_robles.jpg
-    social:
-      facebook: https://facebook.com/JoseNarroOficial/
-      twitter: https://twitter.com/josenarror/
+      facebook: https://facebook.com/AurelioNunoM/
+      twitter: https://twitter.com/aurelionuno/
 
   - name: Enrique de la Madrid Cordero
     occupation: Secretario de Turismo
@@ -87,28 +65,13 @@
       facebook: https://facebook.com/enrique.delamadrid.77/
       twitter: https://twitter.com/edelamadrid/
 
-  - name: Manlio Fabio Beltrones
-    occupation: Ex-gobernador de Sonora
-    avatarUrl: manlio_fabio_beltrones.jpg
+  - name: Eruviel Ávila Villegas
+    occupation: Gobernador del Estado de México
+    avatarUrl: eruviel_avila.jpg
     social:
-      facebook: https://facebook.com/Beltrones/
-      twitter: https://twitter.com/mfbeltrones/
-      website: https://beltrones.com/
-
-  - name: Aurelio Nuño Mayer
-    occupation: Secretario de Educación Pública
-    avatarUrl: aurelio_nuno.jpg
-    social:
-      facebook: https://facebook.com/AurelioNunoM/
-      twitter: https://twitter.com/aurelionuno/
-
-  - name: José Antonio Meade
-    occupation: Secretario de Hacienda y Crédito Público
-    avatarUrl: jose_antonio_meade.jpg
-    social:
-      facebook: https://facebook.com/JoseAMeadeK/
-      instagram: https://www.instagram.com/joseameadek/
-      twitter: https://twitter.com/joseameadek/
+      facebook: https://facebook.com/eruviel/
+      twitter: https://twitter.com/eruviel_avila/
+      website: http://www.eruviel.com/
 
   - name: Ivonne Ortega Pacheco
     occupation: Ex-gobernadora de Yucatán
@@ -119,8 +82,53 @@
       twitter: https://twitter.com/ivonneop/
       website: http://ivonne.mx/biografia.php/
 
+  - name: José Antonio Meade
+    occupation: Secretario de Hacienda y Crédito Público
+    avatarUrl: jose_antonio_meade.jpg
+    social:
+      facebook: https://facebook.com/JoseAMeadeK/
+      instagram: https://www.instagram.com/joseameadek/
+      twitter: https://twitter.com/joseameadek/
+
+  - name: José Ramón Narro Robles
+    occupation: Secretario de Salud
+    # Ex-rector de la UNAM
+    avatarUrl: jose_narro_robles.jpg
+    social:
+      facebook: https://facebook.com/JoseNarroOficial/
+      twitter: https://twitter.com/josenarror/
+
+  - name: Luis Videgaray Caso
+    occupation: Secretario de Relaciones Exteriores
+    avatarUrl: luis_videgaray.jpg
+    social:
+      twitter: https://twitter.com/lvidegaray/
+
+  - name: Manlio Fabio Beltrones
+    occupation: Ex-gobernador de Sonora
+    avatarUrl: manlio_fabio_beltrones.jpg
+    social:
+      facebook: https://facebook.com/Beltrones/
+      twitter: https://twitter.com/mfbeltrones/
+      website: https://beltrones.com/
+
+  - name: Miguel Ángel Osorio Chong
+    occupation: Secretario de Gobernación
+    avatarUrl: miguel_angel_osorio_chong.jpg
+    social:
+      facebook: https://facebook.com/MiguelOsorioChong/
+      twitter: https://twitter.com/osoriochong/
+
 - partyId: prd
   candidates:
+  - name: Graco Ramírez
+    occupation: Gobernador de Morelos
+    avatarUrl: graco_ramirez.jpg
+    social:
+      facebook: https://facebook.com/gracoramirez/
+      instagram: https://www.instagram.com/gracoramirez/
+      twitter: https://twitter.com/gracoramirez/
+
   - name: Miguel Ángel Mancera
     occupation: Jefe de Gobierno de la Ciudad de México
     avatarUrl: miguel_angel_mancera.jpg
@@ -139,14 +147,6 @@
       twitter: https://twitter.com/silvano_a/
       website: http://silvano.mx/
 
-  - name: Graco Ramírez
-    occupation: Gobernador de Morelos
-    avatarUrl: graco_ramirez.jpg
-    social:
-      facebook: https://facebook.com/gracoramirez/
-      instagram: https://www.instagram.com/gracoramirez/
-      twitter: https://twitter.com/gracoramirez/
-
 - partyId: morena
   candidates:
   - name: Andrés Manuel López Obrador
@@ -155,31 +155,31 @@
     social:
       facebook: https://facebook.com/lopezobrador.org.mx/
       instagram: https://www.instagram.com/lopezobrador_/
-      twitter: https://twitter.com/lopezobrador_
+      twitter: https://twitter.com/lopezobrador_/
       website: http://lopezobrador.org.mx/
 
 - partyId: independent
   candidates:
-  - name: Jaime Rodríguez "El Bronco"
-    occupation: Gobernador de Nuevo León
-    avatarUrl: jaime_rodriguez.jpg
-    social:
-      twitter: https://twitter.com/jaimerdznl
-
-  - name: Pedro Ferríz de Con
-    occupation: Periodista
-    avatarUrl: pedro_ferriz_de_con.jpg
-    social:
-      twitter: https://twitter.com/pedroferriz
-
   - name: Armando Ríos Piter
     occupation: Senador por Guerrero
     avatarUrl: armando_rios_piter.jpg
     social:
-      twitter: https://twitter.com/riospiterjaguar
+      twitter: https://twitter.com/riospiterjaguar/
 
   - name: Emilio Álvarez Icaza
     occupation: Ex-presidente de la Comisión de Derechos Humanos del Distrito Federal
     avatarUrl: emilio_alvarez_icaza.jpg
     social:
-      twitter: https://twitter.com/emilioalvarezi
+      twitter: https://twitter.com/emilioalvarezi/
+
+  - name: Jaime Rodríguez "El Bronco"
+    occupation: Gobernador de Nuevo León
+    avatarUrl: jaime_rodriguez.jpg
+    social:
+      twitter: https://twitter.com/jaimerdznl/
+
+  - name: Pedro Ferríz de Con
+    occupation: Periodista
+    avatarUrl: pedro_ferriz_de_con.jpg
+    social:
+      twitter: https://twitter.com/pedroferriz/
