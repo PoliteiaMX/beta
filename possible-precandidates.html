@@ -11,11 +11,15 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Posibles precandidatos rumbo a 2018 &bullet; &pi;</title>
+    <title>Posibles candidatos rumbo a 2018 &bullet; &pi;</title>
 
     <link rel="stylesheet"
           type="text/css"
           href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Merriweather:400,700">
+
     <style type="text/css">
       * {
         box-sizing: border-box;
@@ -24,6 +28,10 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       html {
         font-size: 16px;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      .heading--1, .heading--2, .heading--3 {
+        font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
 
       .candidate-list {
@@ -90,13 +98,15 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
 
       .candidate__position {
         margin-top: 0;
-        margin-bottom: .5em;
+        margin-bottom: .25em;
       }
 
       .candidate__website, .candidate__twitter, .candidate__facebook {
-        font-size: 1.25em;
-        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5em;
         margin-right: .25em;
+        padding: .25em;
+        text-decoration: none;
       }
 
       .candidate__website {
@@ -113,11 +123,11 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
     </style>
   </head>
   <body>
-    <h1>Posibles precandidatos rumbo a 2018</h1>
+    <h1 class="heading--1">Posibles candidatos rumbo a 2018</h1>
 
     {% for possiblePrecandidateList in possiblePrecandidates %}
     {% assign party = parties[possiblePrecandidateList.partyId] %}
-    <h2>{{ party.label }}</h2>
+    <h2 class="heading--2">{{ party.label }}</h2>
 
     <ul class="candidate-list">
       {% for candidate in possiblePrecandidateList.candidates %}
@@ -128,7 +138,7 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
                      border-color: {{ party.colorScheme[0] }};"></span>
         </div>
         <div class="candidate__info">
-          <h3 class="candidate__name">{{ candidate.name }}</h3>
+          <h3 class="candidate__name heading--3">{{ candidate.name }}</h3>
           <p class="candidate__position">{{ candidate.occupation }}</p>
           <div class="candidate__social">
             {% if candidate.social.website %}
