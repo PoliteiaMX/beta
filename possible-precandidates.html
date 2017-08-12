@@ -36,6 +36,17 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         }
       }
 
+      .body {
+        margin: .5em 1em;
+      }
+
+      @media (min-width: 640px) {
+        .body {
+          margin-left: 2em;
+          margin-right: 2em;
+        }
+      }
+
       .heading--1, .heading--2, .heading--3 {
         font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
@@ -136,7 +147,7 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       }
     </style>
   </head>
-  <body>
+  <body class="body">
     <h1 class="heading--1">Posibles candidatos rumbo a 2018</h1>
 
     {% for possiblePrecandidateList in possiblePrecandidates %}
