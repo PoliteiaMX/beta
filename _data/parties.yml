@@ -12,6 +12,13 @@ morena:
   colorScheme:
     - "#bf2c1a"
 
+nueva_alianza:
+  id: nueva_alianza
+  label: Nueva Alianza
+  shortLabel: Nueva Alianza
+  colorScheme:
+    - "#00a4ac"
+
 pan:
   id: pan
   label: Partido Acción Nacional
