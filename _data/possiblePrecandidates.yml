@@ -1,5 +1,21 @@
 - partyId: pan
   candidates:
+  - name: Ernesto Ruffo
+    occupation: Ex-gobernador de Baja California
+    avatarUrl: ernesto_ruffo.jpg
+    social:
+      facebook: https://facebook.com/RuffoAppel/
+      twitter: https://twitter.com/ruffoappel/
+      website: http://www.ruffo.mx/
+
+  - name: Juan Carlos Romero Hicks
+    occupation: Ex-gobernador de Guanajuato
+    avatarUrl: juan_carlos_romero_hicks.jpg
+    social:
+      facebook: https://facebook.com/juancarlosromerohicks/
+      twitter: https://twitter.com/jcromerohicks/
+      website: http://www.juancarlosromerohicks.com/
+
   - name: Margarita Zavala Gómez
     occupation: Ex-diputada Federal
     avatarUrl: margarita_zavala.jpg
@@ -7,6 +23,13 @@
       facebook: https://facebook.com/MargaritaZavalaMX/
       website: http://margaritazavala.com/
       twitter: https://twitter.com/mzavalagc/
+
+  - name: Miguel Márquez Márquez
+    occupation: Gobernador de Guanajuato
+    avatarUrl: miguel_marquez_marquez.jpg
+    social:
+      facebook: https://facebook.com/Miguelmarquezm/
+      twitter: https://twitter.com/miguelmarquezm/
 
   - name: Ricardo Anaya Cortés
     occupation: Presidente Nacional del PAN
@@ -87,6 +110,15 @@
       instagram: https://www.instagram.com/joseameadek/
       twitter: https://twitter.com/joseameadek/
 
+  - name: Ivonne Ortega Pacheco
+    occupation: Ex-gobernadora de Yucatán
+    avatarUrl: ivonne_ortega.jpg
+    social:
+      facebook: https://facebook.com/IvonneOrtegaP/
+      instagram: https://www.instagram.com/ivonneop/
+      twitter: https://twitter.com/ivonneop/
+      website: http://ivonne.mx/biografia.php/
+
 - partyId: prd
   candidates:
   - name: Miguel Ángel Mancera
@@ -106,6 +138,14 @@
       instagram: https://www.instagram.com/silvano_a/
       twitter: https://twitter.com/silvano_a/
       website: http://silvano.mx/
+
+  - name: Graco Ramírez
+    occupation: Gobernador de Morelos
+    avatarUrl: graco_ramirez.jpg
+    social:
+      facebook: https://facebook.com/gracoramirez/
+      instagram: https://www.instagram.com/gracoramirez/
+      twitter: https://twitter.com/gracoramirez/
 
 - partyId: morena
   candidates:
