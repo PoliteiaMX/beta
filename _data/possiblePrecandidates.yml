@@ -4,21 +4,27 @@
     occupation: Ex-diputada Federal
     avatarUrl: margarita_zavala.jpg
     social:
-      twitter: https://twitter.com/mzavalagc
+      facebook: https://facebook.com/MargaritaZavalaMX/
+      website: http://margaritazavala.com/
+      twitter: https://twitter.com/mzavalagc/
 
   - name: Ricardo Anaya Cortés
     occupation: Presidente Nacional del PAN
     # Partido Acción Nacional
     avatarUrl: ricardo_anaya.jpg
     social:
-      twitter: https://twitter.com/ricardoanayac
+      facebook: https://facebook.com/RicardoAnayaC/
+      twitter: https://twitter.com/ricardoanayac/
+      website: http://ricardoanaya.com.mx/
 
   - name: Rafael Moreno Valle
     occupation: Ex-gobernador de Puebla
     # Presidente de la Comisión Política Nacional del PAN
     avatarUrl: rafael_moreno_valle.jpg
     social:
-      twitter: https://twitter.com/rafamorenovalle
+      facebook: https://facebook.com/RafaelMorenoValle/
+      twitter: https://twitter.com/rafamorenovalle/
+      website: http://morenovalle.org/
 
 - partyId: pri
   candidates:
@@ -26,50 +32,60 @@
     occupation: Secretario de Gobernación
     avatarUrl: miguel_angel_osorio_chong.jpg
     social:
-      twitter: https://twitter.com/osoriochong
+      facebook: https://facebook.com/MiguelOsorioChong/
+      twitter: https://twitter.com/osoriochong/
 
   - name: Eruviel Ávila Villegas
     occupation: Gobernador del Estado de México
     avatarUrl: eruviel_avila.jpg
     social:
-      twitter: https://twitter.com/eruviel_avila
+      facebook: https://facebook.com/eruviel/
+      twitter: https://twitter.com/eruviel_avila/
+      website: http://www.eruviel.com/
 
   - name: Luis Videgaray Caso
     occupation: Secretario de Relaciones Exteriores
     avatarUrl: luis_videgaray.jpg
     social:
-      twitter: https://twitter.com/lvidegaray
+      twitter: https://twitter.com/lvidegaray/
 
   - name: José Ramón Narro Robles
     occupation: Secretario de Salud
     # Ex-rector de la UNAM
     avatarUrl: jose_narro_robles.jpg
     social:
-      twitter: https://twitter.com/josenarror
+      facebook: https://facebook.com/JoseNarroOficial/
+      twitter: https://twitter.com/josenarror/
 
   - name: Enrique de la Madrid Cordero
     occupation: Secretario de Turismo
     avatarUrl: enrique_de_la_madrid.jpg
     social:
-      twitter: https://twitter.com/edelamadrid
+      facebook: https://facebook.com/enrique.delamadrid.77/
+      twitter: https://twitter.com/edelamadrid/
 
   - name: Manlio Fabio Beltrones
     occupation: Ex-gobernador de Sonora
     avatarUrl: manlio_fabio_beltrones.jpg
     social:
-      twitter: https://twitter.com/mfbeltrones
+      facebook: https://facebook.com/Beltrones/
+      twitter: https://twitter.com/mfbeltrones/
+      website: https://beltrones.com/
 
   - name: Aurelio Nuño Mayer
     occupation: Secretario de Educación Pública
     avatarUrl: aurelio_nuno.jpg
     social:
-      twitter: https://twitter.com/aurelionuno
+      facebook: https://facebook.com/AurelioNunoM/
+      twitter: https://twitter.com/aurelionuno/
 
   - name: José Antonio Meade
     occupation: Secretario de Hacienda y Crédito Público
     avatarUrl: jose_antonio_meade.jpg
     social:
-      twitter: https://twitter.com/joseameadek
+      facebook: https://facebook.com/JoseAMeadeK/
+      instagram: https://www.instagram.com/joseameadek/
+      twitter: https://twitter.com/joseameadek/
 
 - partyId: prd
   candidates:
@@ -77,13 +93,19 @@
     occupation: Jefe de Gobierno de la Ciudad de México
     avatarUrl: miguel_angel_mancera.jpg
     social:
-      twitter: https://twitter.com/manceramiguelmx
+      facebook: https://facebook.com/MiguelAngelMancera/
+      instagram: https://www.instagram.com/manceramiguelmx/
+      twitter: https://twitter.com/manceramiguelmx/
+      website: http://miguelangelmanceraespinosa.com/
 
   - name: Silvano Aureoles Conejo
     occupation: Gobernador de Michoacán
     avatarUrl: silvano_aureoles.jpg
     social:
-      twitter: https://twitter.com/silvano_a
+      facebook: https://facebook.com/SilvanoAureoles/
+      instagram: https://www.instagram.com/silvano_a/
+      twitter: https://twitter.com/silvano_a/
+      website: http://silvano.mx/
 
 - partyId: morena
   candidates:
@@ -91,7 +113,10 @@
     occupation: Presidente Nacional de MORENA
     avatarUrl: andres_manuel_lopez_obrador.jpeg
     social:
+      facebook: https://facebook.com/lopezobrador.org.mx/
+      instagram: https://www.instagram.com/lopezobrador_/
       twitter: https://twitter.com/lopezobrador_
+      website: http://lopezobrador.org.mx/
 
 - partyId: independent
   candidates:
