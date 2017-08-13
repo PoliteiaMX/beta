@@ -167,6 +167,14 @@
       facebook: https://facebook.com/MiguelOsorioChong/
       twitter: https://twitter.com/osoriochong/
 
+- partyId: pvem
+  candidates:
+  - name: Carlos Puente Salas
+    occupation: Senador por Zacatecas
+    avatarUrl: carlos_puente_salas.jpg
+    social:
+      twitter: https://twitter.com/carlospuentezac/
+
 - partyId: independent
   candidates:
   - name: Armando Ríos Piter
@@ -184,6 +192,15 @@
       facebook: https://facebook.com/emilioalvarezicaza/
       twitter: https://twitter.com/emilioalvarezi/
 
+  - name: Gerardo Fernández Noroña
+    occupation: Ex-diputado Federal por Distrito Federal
+    avatarUrl: gerardo_fernandez_noroña.jpg
+    social:
+      facebook: https://facebook.com/fernandeznorona/
+      instagram: https://www.instagram.com/gfernandeznorona/
+      twitter: https://twitter.com/fernandeznorona/
+      website: https://www.fernandeznorona.mx/
+
   - name: Jaime Rodríguez "El Bronco"
     occupation: Gobernador de Nuevo León
     avatarUrl: jaime_rodriguez.jpg
@@ -192,6 +209,14 @@
       instagram: https://www.instagram.com/jaimerodriguezcalderon/
       twitter: https://twitter.com/jaimerdznl/
       website: http://www.jaimerodriguez.mx/
+
+  - name: María de Jesús Patricio Martínez
+    occupation: Vocera representante del Congreso Nacional Indígena
+    avatarUrl: maria_del_jesus_patricio.jpg
+
+  - name: Juan Ramón de la Fuente
+    occupation: Ex-rector de la UNAM
+    avatarUrl: juan_ramon_de_la_fuente.jpg
 
   - name: Pedro Ferríz de Con
     occupation: Periodista
