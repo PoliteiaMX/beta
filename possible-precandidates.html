@@ -144,6 +144,20 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       .candidate__facebook {
         color: #3b5998;
       }
+
+      .candidate__confirmation {
+        display: inline-block;
+        vertical-align: text-bottom;
+        background-color: white;
+        color: #4caf50; /* Material Green 500 */
+        border: 1px solid #4caf50; /* Material Green 500 */
+        text-decoration: none;
+        font-size: .75em;
+        line-height: 1.875em;
+        margin-right: .5em;
+        padding: 0 .5em;
+      }
+
     </style>
   </head>
   <body class="body">
@@ -165,6 +179,11 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
           <h3 class="candidate__name heading--3">{{ candidate.name }}</h3>
           <p class="candidate__position">{{ candidate.occupation }}</p>
           <div class="candidate__social">
+            {% if candidate.confirmation %}
+            <a href="{{ candidate.confirmation.sourceUrl }}" class="candidate__confirmation" target="_blank">
+              <i class="fa fa-check" aria-hidden="true"></i> {{ candidate.confirmation.date }}
+            </a>
+            {% endif %}
             {% if candidate.social.website %}
             <a href="{{ candidate.social.website }}" class="candidate__website" target="_blank">
               <i class="fa fa-globe" aria-hidden="true"></i>

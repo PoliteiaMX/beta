@@ -3,6 +3,9 @@
   - name: Andrés Manuel López Obrador
     occupation: Presidente Nacional de MORENA
     avatarUrl: andres_manuel_lopez_obrador.jpeg
+    confirmation:
+      date: Feb. 2015
+      sourceUrl: https://youtu.be/xkwEyk5wGR4
     social:
       facebook: https://facebook.com/lopezobrador.org.mx/
       instagram: https://www.instagram.com/lopezobrador_/
@@ -36,9 +39,12 @@
       twitter: https://twitter.com/jcromerohicks/
       website: http://www.juancarlosromerohicks.com/
 
-  - name: Margarita Zavala Gómez
+  - name: Margarita Zavala
     occupation: Ex-diputada Federal por representación proporcional
     avatarUrl: margarita_zavala.jpg
+    confirmation:
+      date: Jun. 2015
+      sourceUrl: https://youtu.be/yYcCg_CjrwY
     social:
       facebook: https://facebook.com/MargaritaZavalaMX/
       website: http://margaritazavala.com/
