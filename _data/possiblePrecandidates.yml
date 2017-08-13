@@ -210,13 +210,13 @@
       twitter: https://twitter.com/jaimerdznl/
       website: http://www.jaimerodriguez.mx/
 
-  - name: María de Jesús Patricio Martínez
-    occupation: Vocera representante del Congreso Nacional Indígena
-    avatarUrl: maria_del_jesus_patricio.jpg
-
   - name: Juan Ramón de la Fuente
     occupation: Ex-rector de la UNAM
     avatarUrl: juan_ramon_de_la_fuente.jpg
+
+  - name: María de Jesús Patricio Martínez
+    occupation: Vocera representante del Congreso Nacional Indígena
+    avatarUrl: maria_del_jesus_patricio.jpg
 
   - name: Pedro Ferríz de Con
     occupation: Periodista
