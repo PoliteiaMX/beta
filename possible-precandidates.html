@@ -51,6 +51,11 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
 
+      .summary {
+        font-size: 1.25em;
+        line-height: 1.5em;
+      }
+
       .candidate-list {
         list-style-type: none;
         padding-left: 0;
@@ -161,6 +166,19 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
   </head>
   <body class="body">
     <h1 class="heading--1">Posibles candidatos rumbo a 2018</h1>
+
+    <div class="summary">
+      <p>
+        Aunque los partidos eligen a sus candidatos presidenciales hasta el próximo año, varias personas ya
+        anunciaron su interés en competir en las elecciones de 2018. Otros han evitado pronunciarse al respecto;
+        sin embargo, sus nombres aparecen en encuestas recientes.
+      </p>
+
+      <p>
+        Estos son los nombres que seguramente escucharemos con frecuencia en ruta a la elección presidencial de
+        2018.
+      </p>
+    </div>
 
     {% for possiblePrecandidateList in possiblePrecandidates %}
     {% assign party = parties[possiblePrecandidateList.partyId] %}
