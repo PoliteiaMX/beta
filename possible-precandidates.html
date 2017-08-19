@@ -75,6 +75,21 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         line-height: 1.5em;
       }
 
+      .party-breakdown {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 2em;
+      }
+
+      .party-count {
+        display: inline-block;
+        color: #ffffff;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+        margin-right: .5em;
+        margin-bottom: .5em;
+        padding: .25em .5em;
+      }
+
       .candidate-list {
         list-style-type: none;
         padding-left: 0;
@@ -236,11 +251,18 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       </p>
     </div>
 
-    {% for possiblePrecandidateList in possiblePrecandidates %}
-    {% assign party = parties[possiblePrecandidateList.partyId] %}
-    <h2 class="heading--2">{{ party.label }}</h2>
+    <ul class="party-breakdown">
+      {% for possiblePrecandidateList in possiblePrecandidates %}
+      {% assign party = parties[possiblePrecandidateList.partyId] %}
+      <li class="party-count"
+          style="background-color: {{ party.colorScheme[0] }};">{{ party.shortLabel }} ×
+            {{ possiblePrecandidateList.candidates | size }}</li>
+      {% endfor %}
+    </ul>
 
     <ul class="candidate-list">
+    {% for possiblePrecandidateList in possiblePrecandidates %}
+    {% assign party = parties[possiblePrecandidateList.partyId] %}
       {% for candidate in possiblePrecandidateList.candidates %}
       <li class="candidate">
         <div class="candidate__avatar-container">
@@ -276,8 +298,8 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         </div>
       </li>
       {% endfor %}
-    </ul>
     {% endfor %}
+    </ul>
 
     <footer class="footer">
       <hr class="footer__hr">
