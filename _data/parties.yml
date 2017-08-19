@@ -54,8 +54,7 @@ independent:
   label: Independiente
   shortLabel: Independiente
   colorScheme:
-    - "#bdc3c7"
-    # - "#34495e"
+    - "#673ab7" # Material Deep Purple 500
 
 others:
   id: others
