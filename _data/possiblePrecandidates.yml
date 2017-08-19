@@ -14,7 +14,7 @@
 
 - partyId: nueva_alianza
   candidates:
-  - name: Gabriel Quadri de la Torre
+  - name: Gabriel Quadri
     occupation: Ex-presidente del Instituto Nacional de Ecología
     avatarUrl: gabriel_quadri.jpg
     social:
@@ -40,7 +40,7 @@
       website: http://www.juancarlosromerohicks.com/
 
   - name: Margarita Zavala
-    occupation: Ex-diputada Federal por representación proporcional
+    occupation: Ex-diputada Federal
     avatarUrl: margarita_zavala.jpg
     confirmation:
       date: Jun. 2015
@@ -192,7 +192,7 @@
       twitter: https://twitter.com/riospiterjaguar/
 
   - name: Emilio Álvarez Icaza
-    occupation: Ex-presidente de la Comisión de Derechos Humanos del Distrito Federal
+    occupation: Ex-presidente de la Comisión de Derechos Humanos del DF
     avatarUrl: emilio_alvarez_icaza.jpg
     social:
       facebook: https://facebook.com/emilioalvarezicaza/
