@@ -181,6 +181,37 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         padding: 0 .5em;
       }
 
+      .footer {
+        font-family: Georgia, Times, "Times New Roman", serif;
+        text-align: center;
+        margin: 1em 0 2em;
+      }
+
+      .footer__hr {
+        z-index: 1;
+        position: relative;
+        display: block;
+        margin: 0;
+        top: 1.5em;
+        border: 0;
+        border-top: 1px dotted #e0e0e0; /* Material Grey 300 */
+      }
+
+      .brand {
+        position: relative;
+        z-index: 2;
+        background-color: #ffeb3b; /* Material Yellow 500 */
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      .brand__inner {
+        font-size: 2em;
+        line-height: 1.325em;
+      }
     </style>
   </head>
   <body class="body">
@@ -247,5 +278,12 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       {% endfor %}
     </ul>
     {% endfor %}
+
+    <footer class="footer">
+      <hr class="footer__hr">
+      <div class="brand">
+        <div class="brand__inner">&pi;</div>
+      </div>
+    </footer>
   </body>
 </html>
