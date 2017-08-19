@@ -51,6 +51,25 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
 
+      .breadcrumbs {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .breadcrumbs__item {
+        display: inline;
+        color: #607d8b; /* Material Blue Grey 500 */
+      }
+
+      .breadcrumbs__item:after {
+        content: " ⇒ ";
+        color: #b0bec5; /* Material Blue Grey 200 */
+      }
+
+      .breadcrumbs__item:last-child:after {
+        content: none;
+      }
+
       .summary {
         font-size: 1.25em;
         line-height: 1.5em;
@@ -166,6 +185,12 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
   </head>
   <body class="body">
     <h1 class="heading--1">Posibles candidatos rumbo a 2018</h1>
+
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs__item">México</li>
+      <li class="breadcrumbs__item">2018</li>
+      <li class="breadcrumbs__item">Elecciones presidenciales</li>
+    </ul>
 
     <div class="summary">
       <p>
