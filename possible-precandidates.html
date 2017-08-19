@@ -83,12 +83,25 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
 
       .party-count {
         display: inline-block;
-        color: #ffffff;
-        text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+        color: #000000;
+        border: 1px solid #000000;
         margin-right: .5em;
         margin-bottom: .5em;
-        padding: .25em .5em;
+        padding: .3125em .625em;
+        cursor: pointer;
       }
+
+      .party-count:hover, .party-count--selected {
+        color: #ffffff;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+      }
+
+      {% for party in parties %}
+      .party-count.party-count--{{ party[1].id }}:hover, .party-count.party-count--{{ party[1].id }}.party-count--selected {
+        background-color: {{ party[1].colorScheme[0] }};
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+      {% endfor %}
 
       .candidate-list {
         list-style-type: none;
@@ -254,8 +267,7 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
     <ul class="party-breakdown">
       {% for possiblePrecandidateList in possiblePrecandidates %}
       {% assign party = parties[possiblePrecandidateList.partyId] %}
-      <li class="party-count"
-          style="background-color: {{ party.colorScheme[0] }};">{{ party.shortLabel }} ×
+      <li class="party-count party-count--{{ party.id }}">{{ party.shortLabel }} ×
             {{ possiblePrecandidateList.candidates | size }}</li>
       {% endfor %}
     </ul>
