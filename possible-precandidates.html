@@ -155,6 +155,7 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       }
 
       .candidate__avatar {
+        position: relative;
         display: inline-block;
         width: 4em;
         height: 4em;
@@ -162,8 +163,15 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         border-radius: 50%;
         background-size: cover;
         background-position: center center;
-        border-width: .1875em;
-        border-style: solid;
+        border: 1px solid #607d8b; /* Material Blue Grey 500 */
+      }
+
+      .candidate__party {
+        position: absolute;
+        width: 1.5625em;
+        height: 1.5625em;
+        right: -.25em;
+        bottom: -.25em;
       }
 
       .candidate__info {
@@ -283,8 +291,15 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
       <li class="candidate">
         <div class="candidate__avatar-container">
           <span class="candidate__avatar"
-                style="background-image: url('{{ site.github.url }}/assets/{{ candidate.avatarUrl }}');
-                       border-color: {{ party.colorScheme[0] }};"></span>
+                style="background-image: url('{{ site.github.url }}/assets/{{ candidate.avatarUrl }}');">
+            {% if party.id != parties.independent.id %}
+            <img class="candidate__party"
+                 alt="{{ party.shortLabel }}"
+                 title="{{ party.label }}"
+                 src="{{ party.logos.1x }}"
+                 srcset="{{ party.logos.1_5x }} 1.5x, {{ party.logos.2x }} 2x">
+            {% endif %}
+          </span>
         </div>
         <div class="candidate__info">
           <h3 class="candidate__name heading--3">{{ candidate.name }}</h3>
