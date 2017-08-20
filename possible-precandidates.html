@@ -200,11 +200,11 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-precandidatos
         color: #607d8b; /* Material Blue Grey 500 */
       }
 
-      .candidate__twitter {
+      .candidate__twitter, .footer__social-link--twitter {
         color: #1da1f2;
       }
 
-      .candidate__facebook {
+      .candidate__facebook, .footer__social-link--facebook {
         color: #3b5998;
       }
 
@@ -253,6 +253,36 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-precandidatos
         font-size: 2em;
         line-height: 1.325em;
         font-weight: bold;
+      }
+
+      .footer__social {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 3em 0;
+        font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+      }
+
+      .footer__social-item {
+        display: inline;
+        margin-left: .25em;
+        font-size: 1.75em;
+      }
+
+      .footer__social-item:first-child {
+        margin-left: 0;
+      }
+
+      .footer__social-item--handle {
+        margin-left: .5em;
+      }
+
+      .footer__social-link {
+        text-decoration: none;
+      }
+
+      .footer__social-link--github {
+        color: #333333;
       }
 
       .hide {
@@ -405,6 +435,31 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-precandidatos
       <div class="brand">
         <div class="brand__inner">&pi;</div>
       </div>
+
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a href="https://twitter.com/politeiamx/"
+             target="_blank"
+             class="footer__social-link footer__social-link--twitter">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://facebook.com/politeiamx/"
+             target="_blank"
+             class="footer__social-link footer__social-link--facebook">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://github.com/politeiamx/"
+             target="_blank"
+             class="footer__social-link footer__social-link--github">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="footer__social-item footer__social-item--handle">@PoliteiaMX</li>
+      </ul>
     </footer>
 
     <script>
