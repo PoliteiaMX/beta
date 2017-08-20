@@ -12,9 +12,9 @@ morena:
   colorScheme:
     - "#bf2c1a"
   logos:
-    1x: //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Morena_Party_%28Mexico%29.png/25px-Morena_Party_%28Mexico%29.png
-    1_5x: //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Morena_Party_%28Mexico%29.png/38px-Morena_Party_%28Mexico%29.png
-    2x: //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Morena_Party_%28Mexico%29.png/50px-Morena_Party_%28Mexico%29.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Morena_Party_%28Mexico%29.png/25px-Morena_Party_%28Mexico%29.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Morena_Party_%28Mexico%29.png/38px-Morena_Party_%28Mexico%29.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Morena_Party_%28Mexico%29.png/50px-Morena_Party_%28Mexico%29.png
 
 nueva_alianza:
   id: nueva_alianza
@@ -23,9 +23,9 @@ nueva_alianza:
   colorScheme:
     - "#00a4ac"
   logos:
-    1x: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/25px-PNA_Party_%28Mexico%29.svg.png
-    1_5x: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/38px-PNA_Party_%28Mexico%29.svg.png
-    2x: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/50px-PNA_Party_%28Mexico%29.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/25px-PNA_Party_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/38px-PNA_Party_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/50px-PNA_Party_%28Mexico%29.svg.png
 
 pan:
   id: pan
@@ -34,9 +34,9 @@ pan:
   colorScheme:
     - "#06338e"
   logos:
-    1x: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/25px-PAN_%28Mexico%29.svg.png
-    1_5x: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/38px-PAN_%28Mexico%29.svg.png
-    2x: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/50px-PAN_%28Mexico%29.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/25px-PAN_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/38px-PAN_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/50px-PAN_%28Mexico%29.svg.png
 
 prd:
   id: prd
@@ -45,9 +45,9 @@ prd:
   colorScheme:
     - "#ffcb01"
   logos:
-    1x: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/25px-PRD_Party_%28Mexico%29.svg.png
-    1_5x: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/38px-PRD_Party_%28Mexico%29.svg.png
-    2x: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/50px-PRD_Party_%28Mexico%29.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/25px-PRD_Party_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/38px-PRD_Party_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/50px-PRD_Party_%28Mexico%29.svg.png
 
 
 pri:
@@ -57,9 +57,9 @@ pri:
   colorScheme:
     - "#00923f"
   logos:
-    1x: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/25px-PRI_Party_%28Mexico%29.svg.png
-    1_5x: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/38px-PRI_Party_%28Mexico%29.svg.png
-    2x: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/50px-PRI_Party_%28Mexico%29.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/25px-PRI_Party_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/38px-PRI_Party_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/50px-PRI_Party_%28Mexico%29.svg.png
 
 pvem:
   id: pvem
@@ -68,9 +68,9 @@ pvem:
   colorScheme:
     - "#50b747"
   logos:
-    1x: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/25px-Mexican_Green_Party.svg.png
-    1_5x: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/38px-Mexican_Green_Party.svg.png
-    2x: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/50px-Mexican_Green_Party.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/25px-Mexican_Green_Party.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/38px-Mexican_Green_Party.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/50px-Mexican_Green_Party.svg.png
 
 # Metaparties
 
