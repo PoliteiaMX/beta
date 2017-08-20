@@ -89,7 +89,7 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         border: 1px solid #000000;
         margin-right: .5em;
         margin-bottom: .5em;
-        padding: .3125em .625em;
+        padding: .375em .6875em;
         min-width: 6em;
         text-align: center;
         cursor: pointer;
@@ -254,7 +254,55 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         line-height: 1.325em;
         font-weight: bold;
       }
+
+      .hide {
+        display: none !important;
+      }
     </style>
+
+    <script type="text/javascript">
+      function Politeia() {
+        this.currentFilter = '';
+
+        this.init = function () {
+          this.candidates = document.getElementsByClassName('candidate');
+        };
+
+        this.toggleElements = function (elements, show) {
+          for(var i = 0; i < elements.length; i++) {
+            elements[i].classList.toggle('hide', !show);
+          }
+        };
+
+        this.toggleFilter = function (partyId) {
+          var $partyFilter = document.getElementsByClassName('party-count--' + partyId)[0];
+
+          if (this.currentFilter === partyId) {
+            // Clear current filter
+            this.toggleElements(this.candidates, true);
+
+            $partyFilter.classList.remove('party-count--selected');
+            this.currentFilter = '';
+          } else {
+            // Hide all, then show the selected party
+            this.toggleElements(this.candidates, false);
+
+            var selectedPartyCandidates = document.getElementsByClassName('candidate--party-' + partyId);
+            this.toggleElements(selectedPartyCandidates, true);
+
+            if (this.currentFilter) {
+              document.getElementsByClassName('party-count--' + this.currentFilter)[0]
+                .classList.remove('party-count--selected');
+            }
+
+            $partyFilter.classList.add('party-count--selected');
+            this.currentFilter = partyId;
+          }
+        };
+      }
+
+      var politeia = new Politeia();
+    </script>
 
     <script type="text/javascript">
       // element.classList polyfill
@@ -288,7 +336,8 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
     <ul class="party-breakdown">
       {% for possiblePrecandidateList in possiblePrecandidates %}
       {% assign party = parties[possiblePrecandidateList.partyId] %}
-      <li class="party-count party-count--{{ party.id }}">{{ party.shortLabel }} ×
+      <li class="party-count party-count--{{ party.id }}"
+          onclick="politeia.toggleFilter('{{ party.id }}');">{{ party.shortLabel }} ×
             {{ possiblePrecandidateList.candidates | size }}</li>
       {% endfor %}
     </ul>
@@ -297,7 +346,7 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
     {% for possiblePrecandidateList in possiblePrecandidates %}
     {% assign party = parties[possiblePrecandidateList.partyId] %}
       {% for candidate in possiblePrecandidateList.candidates %}
-      <li class="candidate">
+      <li class="candidate candidate--party-{{ party.id }}">
         <div class="candidate__avatar-container">
           <span class="candidate__avatar"
                 style="background-image: url('{{ site.github.url }}/assets/{{ candidate.avatarUrl }}');">
@@ -347,5 +396,12 @@ permalink: /es/mx/2018/elecciones-presidenciales/posibles-precandidatos
         <div class="brand__inner">&pi;</div>
       </div>
     </footer>
+
+    <script>
+      (function() {
+        // Rudimentary, cross-browser DOMContentLoaded ;)
+        politeia.init();
+      })();
+      </script>
   </body>
 </html>
