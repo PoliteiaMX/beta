@@ -96,15 +96,22 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
         cursor: pointer;
       }
 
-      .party-count:hover, .party-count--selected {
+      .party-count--selected {
         color: #ffffff;
         text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
       }
 
       {% for party in parties %}
-      .party-count.party-count--{{ party[1].id }}:hover, .party-count.party-count--{{ party[1].id }}.party-count--selected {
+      .party-count.party-count--{{ party[1].id }}:hover {
+        color: {{ party[1].colorScheme[0] }};
+        border-color: {{ party[1].colorScheme[0] }};
+      }
+
+      .party-count.party-count--{{ party[1].id }}.party-count--selected,
+      .party-count.party-count--{{ party[1].id }}.party-count--selected:hover {
+        color: #ffffff;
         background-color: {{ party[1].colorScheme[0] }};
-        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.5);
       }
       {% endfor %}
 
