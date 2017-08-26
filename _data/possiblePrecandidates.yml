@@ -223,6 +223,9 @@
   - name: María de Jesús Patricio Martínez
     occupation: Vocera representante del Congreso Nacional Indígena
     avatarUrl: maria_del_jesus_patricio.jpg
+    confirmation:
+      date: May. 2017
+      sourceUrl: https://www.youtu.be/i092Zsnvs5w
 
   - name: Pedro Ferríz de Con
     occupation: Periodista
