@@ -4,6 +4,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
 
 {% assign parties = site.data.parties %}
 {% assign possiblePrecandidates = site.data.possiblePrecandidates %}
+{% assign itemsPerPage = 14 %}
 
 <!DOCTYPE html>
 <html>
@@ -288,6 +289,33 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
       .hide {
         display: none !important;
       }
+
+      /* Infographic-specific styles, width 840px */
+      .infographic.body {
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .infographic .h-infographic-hide {
+        display: none;
+      }
+
+      .infographic .candidate {
+        height: 7em;
+      }
+
+      .infographic.page-0 .infographic-page-1, .infographic.page-1 .infographic-page-0 {
+        display: none;
+      }
+
+      .infographic .footer {
+        margin-bottom: 1px;
+      }
+
+      .infographic .footer__social {
+        margin: 1.5em 0;
+      }
     </style>
 
     <script type="text/javascript">
@@ -352,15 +380,15 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
     </script>
   </head>
   <body class="body">
-    <h1 class="heading--1">Posibles candidatos rumbo a 2018</h1>
+    <h1 class="heading--1 h-infographic-hide">Posibles candidatos rumbo a 2018</h1>
 
-    <ul class="breadcrumbs">
+    <ul class="breadcrumbs h-infographic-hide">
       <li class="breadcrumbs__item">México</li>
       <li class="breadcrumbs__item">2018</li>
       <li class="breadcrumbs__item">Elecciones presidenciales</li>
     </ul>
 
-    <div class="summary">
+    <div class="summary h-infographic-hide">
       <p>
         Aunque los partidos eligen a sus candidatos presidenciales hasta el próximo año, varias personas ya
         anunciaron su interés en competir en las elecciones de 2018. Otros han evitado pronunciarse al respecto;
@@ -373,7 +401,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
       </p>
     </div>
 
-    <ul class="party-breakdown">
+    <ul class="party-breakdown h-infographic-hide">
       {% for possiblePrecandidateList in possiblePrecandidates %}
       {% assign party = parties[possiblePrecandidateList.partyId] %}
       <li class="party-count party-count--{{ party.id }}"
@@ -383,10 +411,11 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
     </ul>
 
     <ul class="candidate-list">
+    {% assign itemCount = 0 %}
     {% for possiblePrecandidateList in possiblePrecandidates %}
     {% assign party = parties[possiblePrecandidateList.partyId] %}
       {% for candidate in possiblePrecandidateList.candidates %}
-      <li class="candidate candidate--party-{{ party.id }}">
+      <li class="candidate candidate--party-{{ party.id }} infographic-page-{{ itemCount | divided_by:itemsPerPage }}">
         <div class="candidate__avatar-container">
           <span class="candidate__avatar"
                 style="background-image: url('{{ site.github.url }}/assets/{{ candidate.avatarUrl }}');">
@@ -402,7 +431,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
         <div class="candidate__info">
           <h3 class="candidate__name heading--3">{{ candidate.name }}</h3>
           <p class="candidate__position">{{ candidate.occupation }}</p>
-          <div class="candidate__social">
+          <div class="candidate__social h-infographic-hide">
             {% if candidate.confirmation %}
             <a href="{{ candidate.confirmation.sourceUrl }}" class="candidate__confirmation" target="_blank">
               <i class="fa fa-check" aria-hidden="true"></i> {{ candidate.confirmation.date }}
@@ -426,6 +455,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
           </div>
         </div>
       </li>
+      {% assign itemCount = itemCount | plus:1 %}
       {% endfor %}
     {% endfor %}
     </ul>
