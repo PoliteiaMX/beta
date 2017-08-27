@@ -3,7 +3,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
 ---
 
 {% assign parties = site.data.parties %}
-{% assign possiblePrecandidates = site.data.possiblePrecandidates %}
+{% assign possiblePresidentialCandidates = site.data.possiblePresidentialCandidates %}
 {% assign itemsPerPage = 14 %}
 
 <!DOCTYPE html>
@@ -174,7 +174,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
         border: 1px solid #607d8b; /* Material Blue Grey 500 */
       }
 
-      {% for possiblePrecandidateList in possiblePrecandidates %}
+      {% for possiblePrecandidateList in possiblePresidentialCandidates %}
       {% for candidate in possiblePrecandidateList.candidates %}
       .candidate--{{ candidate.id }} .candidate__avatar {
         background-image: url('{{ site.github.url }}/assets/people/{{ candidate.id }}_64px.jpg');
@@ -426,7 +426,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
     </div>
 
     <ul class="party-breakdown h-infographic-hide">
-      {% for possiblePrecandidateList in possiblePrecandidates %}
+      {% for possiblePrecandidateList in possiblePresidentialCandidates %}
       {% assign party = parties[possiblePrecandidateList.partyId] %}
       <li class="party-count party-count--{{ party.id }}"
           onclick="politeia.toggleFilter('{{ party.id }}');">{{ party.shortLabel }} ×
@@ -436,7 +436,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
 
     <ul class="candidate-list">
     {% assign itemCount = 0 %}
-    {% for possiblePrecandidateList in possiblePrecandidates %}
+    {% for possiblePrecandidateList in possiblePresidentialCandidates %}
     {% assign party = parties[possiblePrecandidateList.partyId] %}
       {% for candidate in possiblePrecandidateList.candidates %}
       <li class="candidate candidate--party-{{ party.id }} infographic-page-{{ itemCount | divided_by:itemsPerPage }}
