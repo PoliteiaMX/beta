@@ -1,0 +1,63 @@
+id: claudia_sheinbaum
+name: Claudia Sheinbaum
+description: Delegada de Tlalpan
+
+social:
+  twitter:
+    url: https://twitter.com/claudiashein/
+    username: claudiashein
+  facebook:
+    url: https://www.facebook.com/ClaudiaSheinbaumPardo/
+    username: ClaudiaSheinbaumPardo
+  youtube:
+    url: https://www.youtube.com/channel/UCupLzFGl09cRc2zmYy2Z6Yg/
+
+transparency:
+  - title: 3de3
+    url: http://3de3.mx/#/perfil?nombre=sheinbaum_pardo_claudia
+
+politicalPartyHistory:
+  - id: morena
+    start: 1976
+    end: 1983
+    duration: 12
+
+publicPositions:
+  - title: Delegada de Tlalpan
+    start: 2000-12-05
+    end: 2005-07-29
+
+politicsPositions:
+  - title: Presidente Nacional del Movimiento Regeneración Nacional
+    start: 2015-11-20
+    end: now
+
+academicHistory:
+  - degree: Licenciado en Ciencias Políticas y Administración Pública
+    institution: Universidad Nacional Autónoma de México
+
+elections:
+  - title: Presidencia de la República
+    date: 2012
+    coalition:
+      name: Movimiento Progresista
+      parties:
+      - id: prd
+        name: Partido de la Revolución Democrática
+      - id: pt
+        name: Partido del Trabajo
+      - id: convergencia
+        name: Convergencia
+    result:
+      id: lost
+      label: Perdida
+      votes:
+        percentage: 31.59%
+        total: 15896999
+
+bibliography:
+  - title: Sheinbaum, candidata del partido de López Obrador a la Ciudad de México
+    source: El País Internacional
+    url: https://elpais.com/internacional/2017/08/25/mexico/1503624178_341550.html
+    sections:
+      - controversies
