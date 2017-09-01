@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 original_files=(./images/*_original.*)
-sizes=(64 128)
+sizes=(64 128 96 192)
 assets_people_dir="./assets/people"
 
 for file in "${original_files[@]}"
