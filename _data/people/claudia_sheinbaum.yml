@@ -1,0 +1,152 @@
+id: claudia_sheinbaum
+name: Claudia Sheinbaum
+description: Delegada de Tlalpan
+
+social:
+  twitter:
+    url: https://twitter.com/claudiashein/
+    username: claudiashein
+  facebook:
+    url: https://www.facebook.com/ClaudiaSheinbaumPardo/
+    username: ClaudiaSheinbaumPardo
+  youtube:
+    title: Claudia Sheinbaum
+    url: https://www.youtube.com/channel/UCupLzFGl09cRc2zmYy2Z6Yg/
+
+transparency:
+  - title: 3de3
+    url: http://3de3.mx/#/perfil?nombre=sheinbaum_pardo_claudia
+
+politicalPartyHistory:
+  - id: morena
+    start: 2014
+    end: hoy
+    duration: 3
+  - id: prd
+    start: 1989
+    end: 2014
+    duration: 25
+
+publicPositions:
+  - title: Delegada de Tlalpan
+    start: 2015-01-10
+    end: hoy
+  - title: Secretaria de Medio Ambiente, Gobierno del Distrito Federal
+    start: 2000-12-05
+    end: 2016
+
+politicsPositions:
+  - title: Coordinadora de Organización Territorial en CDMX para Morena
+    start: 2017-08-25
+    end: hoy
+
+academicHistory:
+  - degree: Doctora en Ingeniería Energética
+    institution: Universidad Nacional Autónoma de México
+  - degree: Maestra en Ingeniería Energética
+    institution: Universidad Nacional Autónoma de México
+  - degree: Licenciada en Física
+    institution: Universidad Nacional Autónoma de México
+
+professionalHistory:
+  - position: Investigadora
+    institution: Grupo Intergubernamental de Cambio Climático (IPCC)
+  - position: Investigadora Titular B
+    institution: Instituto de Ingeniería, Universidad Nacional Autónoma de México
+
+elections:
+  - title: Delegada de Tlalpan
+    date: 2015
+    party:
+      id: morena
+      name: MORENA
+    result:
+      id: won
+      label: Ganada
+      votes:
+        percentage: 29.52%
+        total: 67236
+
+bibliography:
+  - title: Presenta AMLO su gabinete
+    source: El Universal (Metrópoli)
+    url: http://archivo.eluniversal.com.mx/ciudad/19545.html
+    sections:
+      - publicPositions
+
+  - title: Perfil. Claudia Sheinbaum, la política y la científica
+    source: El Universal (Nación)
+    url: http://www.eluniversal.com.mx/nacion/politica/perfil-claudia-sheinbaum-la-politica-y-la-cientifica
+    sections:
+      - academicHistory
+      - professionalHistory
+      - publicPositions
+      - politicsPositions
+
+  - title: "Ingeniería en Sistemas: Dra. Claudia Sheinbaum Pardo"
+    source: Instituto de Ingeniería UNAM
+    url: http://www.iingen.unam.mx/es-mx/Investigacion/Coordinacion/IngenieriaenSistemas/Lists/IngenieriaEnSistemas1/DispForm.aspx?ID=21
+    sections:
+      - academicHistory
+      - professionalHistory
+
+  - title: Sheinbaum, candidata del partido de López Obrador a la Ciudad de México
+    source: El País (Internacional)
+    url: https://elpais.com/internacional/2017/08/25/mexico/1503624178_341550.html
+    sections:
+      - controversies
+
+  - title: Directorio de la delegación Tlalpan
+    source: Delegación Tlalpan
+    url: http://www.tlalpan.gob.mx/directorio/
+    sections:
+      - politicsPositions
+
+  - title: Claudia Sheinbaum Pardo, Jefa Delegacional
+    source: Delegación Tlalpan (Semblanza)
+    url: http://www.tlalpan.gob.mx/directorio/senblanza/sem_claudia.pdf
+    sections:
+      - academicHistory
+      - professionalHistory
+      - publicPositions
+
+  - title: Jefe Delegacional en Tlalpan
+    source: Instituto Electoral del Distrito Federal (Resultados 2015)
+    url: http://portal.iedf.org.mx/resultados2015/delegacion.php?del=12
+    sections:
+      - elections
+      - publicPositions
+
+  - title: ¿Quién es Claudia Sheinbaum Pardo?
+    source: El Economista (Política)
+    url: http://m.eleconomista.mx/politica/2017/08/25/quien-claudia-sheinbaum-pardo
+    sections:
+      - academicHistory
+      - professionalHistory
+      - publicPositions
+
+  - title: Claudia Sheinbaum Pardo
+    source: Instituto de Ingeniería UNAM (Entrevistas)
+    url: http://www.iingen.unam.mx/es-mx/BancoDeInformacion/Entrevistas/Paginas/ClaudiaSheinbaumPardo.aspx
+    sections:
+      - academicHistory
+      - professionalHistory
+      - publicPositions
+
+  - title: Jefes delegacionales tomará protesta este jueves ante la ALDF
+    source: El Financiero (Nacional)
+    url: http://www.elfinanciero.com.mx/nacional/jefes-delegacionales-tomara-protesta-este-jueves-ante-la-aldf.html
+    sections:
+      - publicPositions
+
+  - title: "IPCC Fourth Assessment Report: Climate Change 2007"
+    source: Intergovernmental Panel on Climate Change
+    url: https://www.ipcc.ch/publications_and_data/ar4/wg3/en/ch7.html
+    sections:
+      - professionalHistory
+
+  - title: Oficial, Sheinbaum es coordinadora de Morena en la CDMX
+    source: La Jornada (Capital)
+    url: http://www.jornada.unam.mx/ultimas/2017/08/25/sheinbaum-es-oficialmente-coordinadora-de-morena
+    sections:
+      - politicsPositions

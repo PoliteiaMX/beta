@@ -1,0 +1,169 @@
+---
+permalink: /es/mexico/2018/personas/claudia-sheinbaum
+---
+{% assign person = site.data.people.claudia_sheinbaum %}
+{% assign parties = site.data.parties %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="title" content="Perfil: {{ person.name }}, México • π">
+    <meta name="description" content="{{ person.name }}, {{ person.description }}">
+
+    <title>{{ person.name }} • π</title>
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Merriweather:400,700">
+
+    <link rel="stylesheet"
+          href="{{ site.github.url }}/assets/css/main.css">
+
+    <style type="text/css">
+      .person__avatar {
+        width: 96px;
+        height: 96px;
+        background-image: url('{{ site.github.url }}/assets/images/people/{{ person.id }}_192px.jpg');
+        float: left;
+      }
+
+      .person__header {
+        margin-left: 112px; /* 96 + 16 */
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div>
+      <div class="avatar person__avatar"></div>
+      <div class="person__header">
+        <h1 class="heading--1">{{ person.name }}</h1>
+        <h2 class="heading--2">{{ person.description }}</h2>
+      </div>
+    </div>
+
+    <ul class="breadcrumbs h-infographic-hide">
+      <li class="breadcrumbs__item">México</li>
+      <li class="breadcrumbs__item">Personas</li>
+    </ul>
+
+    <h3 class="heading--3">Redes sociales e Internet</h3>
+
+    <ul>
+      {% if person.social.website %}
+      <li>
+        Sitio web: <a href="{{ person.social.website.url }}" target="_blank">
+          {{ person.social.website.url }}</a>
+      </li>
+      {% endif %}
+
+      {% if person.social.twitter %}
+      <li>
+        Twitter: <a href="{{ person.social.twitter.url }}" target="_blank">
+          {{ person.social.twitter.username | prepend: "@" }}</a>
+      </li>
+      {% endif %}
+
+      {% if person.social.facebook %}
+      <li>
+        Facebook: <a href="{{ person.social.facebook.url }}" target="_blank">
+          {{ person.social.facebook.username }}</a>
+      </li>
+      {% endif %}
+
+      {% if person.social.youtube %}
+      <li>
+        YouTube: <a href="{{ person.social.youtube.url }}" target="_blank">
+          {{ person.social.youtube.title }}</a>
+      </li>
+      {% endif %}
+    </ul>
+
+    <h3 class="heading--3">Transparencia</h3>
+
+    <ul>
+      {% for transparencyItem in person.transparency %}
+      <li>
+        <a href="{{ transparencyItem.url }}" target="_blank">{{ transparencyItem.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="heading--3">Partidos políticos</h3>
+
+    <ul>
+      {% for partyItem in person.politicalPartyHistory %}
+      <li>{{ parties[partyItem.id].label }} ({{ partyItem.duration }} años)</li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="heading--3">Cargos públicos</h3>
+
+    <ul>
+      {% for position in person.publicPositions %}
+      <li>{{ position.title }} de {{ position.start }} a {{ position.end }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="heading--3">Cargos políticos</h3>
+
+    <ul>
+      {% for position in person.politicsPositions %}
+      <li>{{ position.title }} de {{ position.start }} a {{ position.end }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="heading--3">Trayectoria académica</h3>
+
+    <ul>
+      {% for level in person.academicHistory %}
+      <li>{{ level.degree }} en {{ level.institution }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="heading--3">Trayectoria profesional</h3>
+
+    <ul>
+      {% for job in person.professionalHistory %}
+      <li>{{ job.position }} en {{ job.institution }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="heading--3">Elecciones</h3>
+
+    <ul>
+      {% for election in person.elections %}
+      <li>
+        <p>{{ election.title }}, {{ election.date }}: {{ election.result.label }}</p>
+        {% if election.party.name %}
+        <p>{{ election.party.name }}</p>
+        {% endif %}
+        {% if election.coalition.name %}
+        <p>
+          {{ election.coalition.name }}:
+          {% for party in election.coalition.parties %}
+          {{ party.name }},
+          {% endfor %}
+        </p>
+        {% endif %}
+        <p>{{ election.result.votes.percentage }} ({{ election.result.votes.total }} votos)</p>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="heading--3">Bibliografía</h3>
+
+    <ul>
+      {% for bibliographyItem in person.bibliography %}
+      <li>
+        <p><a href="{{ bibliographyItem.url }}" target="_blank">«{{ bibliographyItem.title }}»</a></p>
+        <p>{{ bibliographyItem.source }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
