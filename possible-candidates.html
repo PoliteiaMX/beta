@@ -44,7 +44,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
       {% for possiblePrecandidateList in possiblePresidentialCandidates %}
       {% for candidate in possiblePrecandidateList.candidates %}
       .candidate--{{ candidate.id }} .candidate__avatar {
-        background-image: url('{{ site.github.url }}/assets/people/{{ candidate.id }}_64px.jpg');
+        background-image: url('{{ site.github.url }}/assets/images/people/{{ candidate.id }}_64px.jpg');
       }
 
       @media (-webkit-min-device-pixel-ratio: 2),
@@ -52,7 +52,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
           (min-resolution: 2dppx),
           (min-resolution: 192dpi) {
         .candidate--{{ candidate.id }} .candidate__avatar {
-          background-image: url('{{ site.github.url }}/assets/people/{{ candidate.id }}_128px.jpg');
+          background-image: url('{{ site.github.url }}/assets/images/people/{{ candidate.id }}_128px.jpg');
         }
       }
       {% endfor %}
