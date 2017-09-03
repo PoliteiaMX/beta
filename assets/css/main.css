@@ -33,6 +33,14 @@ html {
   background-position: center center;
   border: 1px solid #607d8b; /* Material Blue Grey 500 */
 }
+
+.avatar__party {
+  position: absolute;
+  width: 1.5625em;
+  height: 1.5625em;
+  right: -.25em;
+  bottom: -.25em;
+}
 /* Pattern: avatar } */
 
 /* Pattern: social icons { */
@@ -160,14 +168,6 @@ html {
   width: 4em;
   height: 4em;
   margin-right: 1em;
-}
-
-.candidate__party {
-  position: absolute;
-  width: 1.5625em;
-  height: 1.5625em;
-  right: -.25em;
-  bottom: -.25em;
 }
 
 .candidate__info {
