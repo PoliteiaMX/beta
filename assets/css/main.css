@@ -301,7 +301,7 @@ html {
 
 @media (min-width: 640px) {
   .profile__social-item {
-    display: inline;
+    display: inline-block;
   }
 }
 
