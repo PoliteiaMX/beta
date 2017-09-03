@@ -48,6 +48,10 @@ html {
   color: #3b5998;
 }
 
+.social-icon--github {
+  color: #333333;
+}
+
 .social-icon--twitter {
   color: #1da1f2;
 }
@@ -263,10 +267,6 @@ html {
 
 .footer__social-link {
   text-decoration: none;
-}
-
-.footer__social-link--github {
-  color: #333333;
 }
 
 .hide {
