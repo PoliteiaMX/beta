@@ -3,6 +3,8 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 ---
 {% assign person = site.data.people.claudia_sheinbaum %}
 {% assign parties = site.data.parties %}
+{% assign currentPartyId = person.politicalPartyHistory[0].id %}
+{% assign currentParty = parties[currentPartyId] %}
 
 <!DOCTYPE html>
 <html>
@@ -51,7 +53,15 @@ permalink: /es/mexico/personas/claudia-sheinbaum
   </head>
   <body class="body">
     <div>
-      <div class="profile__avatar avatar"></div>
+      <div class="profile__avatar avatar">
+        {% if party.id != parties.independent.id %}
+        <img class="avatar__party"
+             alt="{{ currentParty.shortLabel }}"
+             title="{{ currentParty.label }}"
+             src="{{ currentParty.logos.x1 }}"
+             srcset="{{ currentParty.logos.x1_5 }} 1.5x, {{ currentParty.logos.x2 }} 2x">
+        {% endif %}
+      </div>
       <div class="profile__header">
         <h1 class="profile__name heading--1">{{ person.name }}</h1>
         <h2 class="profile__description">{{ person.description }}</h2>
