@@ -26,7 +26,16 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
     <style type="text/css">
       .profile__avatar {
-        background-image: url('{{ site.github.url }}/assets/images/people/{{ person.id }}_192px.jpg');
+        background-image: url('{{ site.github.url }}/assets/images/people/{{ person.id }}_96px.jpg');
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 2),
+          (min--moz-device-pixel-ratio: 2),
+          (min-resolution: 2dppx),
+          (min-resolution: 192dpi) {
+        .profile__avatar {
+          background-image: url('{{ site.github.url }}/assets/images/people/{{ person.id }}_192px.jpg');
+        }
       }
     </style>
   </head>
