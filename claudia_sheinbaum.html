@@ -56,29 +56,37 @@ permalink: /es/mexico/personas/claudia-sheinbaum
     <ul>
       {% if person.social.website %}
       <li>
-        Sitio web: <a href="{{ person.social.website.url }}" target="_blank">
-          {{ person.social.website.url }}</a>
+        <a href="{{ person.social.website.url }}" target="_blank">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          {{ person.social.website.url }}
+        </a>
       </li>
       {% endif %}
 
       {% if person.social.twitter %}
       <li>
-        Twitter: <a href="{{ person.social.twitter.url }}" target="_blank">
-          {{ person.social.twitter.username | prepend: "@" }}</a>
+        <a href="{{ person.social.twitter.url }}" target="_blank">
+          <i class="fa fa-twitter social-icon--twitter" aria-hidden="true"></i>
+          {{ person.social.twitter.username | prepend: "@" }}
+        </a>
       </li>
       {% endif %}
 
       {% if person.social.facebook %}
       <li>
-        Facebook: <a href="{{ person.social.facebook.url }}" target="_blank">
-          {{ person.social.facebook.username }}</a>
+        <a href="{{ person.social.facebook.url }}" target="_blank">
+          <i class="fa fa-facebook-official social-icon--facebook" aria-hidden="true"></i>
+          {{ person.social.facebook.username }}
+        </a>
       </li>
       {% endif %}
 
       {% if person.social.youtube %}
       <li>
-        YouTube: <a href="{{ person.social.youtube.url }}" target="_blank">
-          {{ person.social.youtube.title }}</a>
+        <a href="{{ person.social.youtube.url }}" target="_blank">
+          <i class="fa fa-youtube-play social-icon--youtube" aria-hidden="true"></i>
+          {{ person.social.youtube.title }}
+        </a>
       </li>
       {% endif %}
     </ul>
