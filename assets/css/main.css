@@ -35,6 +35,24 @@ html {
 }
 /* Pattern: avatar } */
 
+/* Pattern: social icons { */
+.social-icon--facebook {
+  color: #3b5998;
+}
+
+.social-icon--twitter {
+  color: #1da1f2;
+}
+
+.social-icon--youtube {
+  color: #ff0000;
+}
+
+.social-icon--website {
+  color: #607d8b; /* Material Blue Grey 500 */
+}
+/* Pattern: social icons } */
+
 .heading--1, .heading--2, .heading--3 {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -162,23 +180,11 @@ html {
   margin-bottom: .25em;
 }
 
-.candidate__website, .candidate__twitter, .candidate__facebook {
+.candidate__social-link {
   display: inline-block;
   font-size: 1.5em;
   padding: .25em .125em;
   text-decoration: none;
-}
-
-.candidate__website {
-  color: #607d8b; /* Material Blue Grey 500 */
-}
-
-.candidate__twitter, .footer__social-link--twitter {
-  color: #1da1f2;
-}
-
-.candidate__facebook, .footer__social-link--facebook {
-  color: #3b5998;
 }
 
 .candidate__confirmation {
