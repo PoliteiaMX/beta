@@ -273,7 +273,26 @@ html {
   display: none !important;
 }
 
-/* Person profile styles */
+/* Profile styles */
+.profile__name {
+  margin-bottom: .25em;
+}
+
+.profile__avatar {
+  width: 6em;
+  height: 6em;
+  float: left;
+}
+
+.profile__header {
+  margin-left: 7.5em;
+}
+
+.profile__description {
+  font-weight: normal;
+  margin-top: 0;
+}
+
 .profile__social-item {
   font-size: 1.125em;
   margin-right: 1em;

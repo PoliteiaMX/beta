@@ -25,24 +25,17 @@ permalink: /es/mexico/personas/claudia-sheinbaum
           href="{{ site.github.url }}/assets/css/main.css">
 
     <style type="text/css">
-      .person__avatar {
-        width: 6em;
-        height: 6em;
+      .profile__avatar {
         background-image: url('{{ site.github.url }}/assets/images/people/{{ person.id }}_192px.jpg');
-        float: left;
-      }
-
-      .person__header {
-        margin-left: 7.5em;
       }
     </style>
   </head>
   <body class="body">
     <div>
-      <div class="avatar person__avatar"></div>
-      <div class="person__header">
-        <h1 class="heading--1">{{ person.name }}</h1>
-        <h2 class="heading--2">{{ person.description }}</h2>
+      <div class="profile__avatar avatar"></div>
+      <div class="profile__header">
+        <h1 class="profile__name heading--1">{{ person.name }}</h1>
+        <h2 class="profile__description">{{ person.description }}</h2>
 
         <ul class="list--unstyled">
           {% if person.social.website %}
