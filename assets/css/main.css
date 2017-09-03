@@ -53,6 +53,11 @@ html {
 }
 /* Pattern: social icons } */
 
+.list--unstyled {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 .heading--1, .heading--2, .heading--3 {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -266,6 +271,32 @@ html {
 
 .hide {
   display: none !important;
+}
+
+/* Person profile styles */
+.profile__social-item {
+  font-size: 1.125em;
+  margin-right: 1em;
+  padding: .25em .25em .25em 0;
+}
+
+@media (min-width: 640px) {
+  .profile__social-item {
+    display: inline;
+  }
+}
+
+.profile__social-item:last-child {
+  margin-right: 0;
+}
+
+.profile__social-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.profile__social-icon {
+  margin-right: .125em;
 }
 
 /* Infographic-specific styles, width 840px */

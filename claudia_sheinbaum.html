@@ -43,52 +43,50 @@ permalink: /es/mexico/personas/claudia-sheinbaum
       <div class="person__header">
         <h1 class="heading--1">{{ person.name }}</h1>
         <h2 class="heading--2">{{ person.description }}</h2>
+
+        <ul class="list--unstyled">
+          {% if person.social.website %}
+          <li class="profile__social-item">
+            <a href="{{ person.social.website.url }}" class="profile__social-link" target="_blank">
+              <i class="fa fa-globe profile__social-icon" aria-hidden="true"></i>
+              {{ person.social.website.url }}
+            </a>
+          </li>
+          {% endif %}
+
+          {% if person.social.twitter %}
+          <li class="profile__social-item">
+            <a href="{{ person.social.twitter.url }}" class="profile__social-link" target="_blank">
+              <i class="fa fa-twitter social-icon--twitter profile__social-icon" aria-hidden="true"></i>
+              {{ person.social.twitter.username | prepend: "@" }}
+            </a>
+          </li>
+          {% endif %}
+
+          {% if person.social.facebook %}
+          <li class="profile__social-item">
+            <a href="{{ person.social.facebook.url }}" class="profile__social-link" target="_blank">
+              <i class="fa fa-facebook-official social-icon--facebook profile__social-icon" aria-hidden="true"></i>
+              {{ person.social.facebook.username }}
+            </a>
+          </li>
+          {% endif %}
+
+          {% if person.social.youtube %}
+          <li class="profile__social-item">
+            <a href="{{ person.social.youtube.url }}" class="profile__social-link" target="_blank">
+              <i class="fa fa-youtube-play social-icon--youtube profile__social-icon" aria-hidden="true"></i>
+              {{ person.social.youtube.title }}
+            </a>
+          </li>
+          {% endif %}
+        </ul>
       </div>
     </div>
 
     <ul class="breadcrumbs h-infographic-hide">
       <li class="breadcrumbs__item">México</li>
       <li class="breadcrumbs__item">Personas</li>
-    </ul>
-
-    <h3 class="heading--3">Redes sociales e Internet</h3>
-
-    <ul>
-      {% if person.social.website %}
-      <li>
-        <a href="{{ person.social.website.url }}" target="_blank">
-          <i class="fa fa-globe" aria-hidden="true"></i>
-          {{ person.social.website.url }}
-        </a>
-      </li>
-      {% endif %}
-
-      {% if person.social.twitter %}
-      <li>
-        <a href="{{ person.social.twitter.url }}" target="_blank">
-          <i class="fa fa-twitter social-icon--twitter" aria-hidden="true"></i>
-          {{ person.social.twitter.username | prepend: "@" }}
-        </a>
-      </li>
-      {% endif %}
-
-      {% if person.social.facebook %}
-      <li>
-        <a href="{{ person.social.facebook.url }}" target="_blank">
-          <i class="fa fa-facebook-official social-icon--facebook" aria-hidden="true"></i>
-          {{ person.social.facebook.username }}
-        </a>
-      </li>
-      {% endif %}
-
-      {% if person.social.youtube %}
-      <li>
-        <a href="{{ person.social.youtube.url }}" target="_blank">
-          <i class="fa fa-youtube-play social-icon--youtube" aria-hidden="true"></i>
-          {{ person.social.youtube.title }}
-        </a>
-      </li>
-      {% endif %}
     </ul>
 
     <h3 class="heading--3">Transparencia</h3>
