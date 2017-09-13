@@ -111,103 +111,154 @@ permalink: /es/mexico/personas/claudia-sheinbaum
       <li class="breadcrumbs__item">Personas</li>
     </ul>
 
-    <h3 class="heading--3">
-      <i class="fa fa-search" aria-hidden="true"></i> Transparencia
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-search" aria-hidden="true"></i> Transparencia
+      </h3>
 
-    <ul>
-      {% for transparencyItem in person.transparency %}
-      <li>
-        <a href="{{ transparencyItem.url }}" target="_blank">{{ transparencyItem.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for transparencyItem in person.transparency %}
+        <li>
+          <a href="{{ transparencyItem.url }}" target="_blank">{{ transparencyItem.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h3 class="heading--3">
-      <i class="fa fa-flag" aria-hidden="true"></i> Partidos políticos
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-flag" aria-hidden="true"></i> Partidos políticos
+      </h3>
 
-    <ul>
-      {% for partyItem in person.politicalPartyHistory %}
-      <li>{{ parties[partyItem.id].label }} ({{ partyItem.duration }} años)</li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for partyItem in person.politicalPartyHistory %}
+        <li>
+          {{ parties[partyItem.id].label }} ({{ partyItem.duration }} años)
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h3 class="heading--3">
-      <i class="fa fa-institution" aria-hidden="true"></i> Cargos públicos
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-institution" aria-hidden="true"></i> Cargos públicos
+      </h3>
 
-    <ul>
-      {% for position in person.publicPositions %}
-      <li>{{ position.title }} de {{ position.start }} a {{ position.end }}</li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for position in person.publicPositions %}
+        <li>
+          <div class="section__left">
+            {{ position.start | date: "%Y" }}
+            {% if position.end == "now" %}
+            (actual)
+            {% else %}
+            – {{ position.end | date: "%Y" }}
+            {% endif %}
+          </div>
+          <div class="section__right">
+            {{ position.title }}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h3 class="heading--3">
-      <i class="fa fa-group" aria-hidden="true"></i> Cargos políticos
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-group" aria-hidden="true"></i> Cargos políticos
+      </h3>
 
-    <ul>
-      {% for position in person.politicsPositions %}
-      <li>{{ position.title }} de {{ position.start }} a {{ position.end }}</li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for position in person.politicsPositions %}
+        <li>
+          <div class="section__left">
+            {{ position.start | date: "%Y" }}
+            {% if position.end == "now" %}
+            (actual)
+            {% else %}
+            – {{ position.end | date: "%Y" }}
+            {% endif %}
+          </div>
+          <div class="section__right">
+            {{ position.title }}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h3 class="heading--3">
-      <i class="fa fa-graduation-cap" aria-hidden="true"></i> Trayectoria académica
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-graduation-cap" aria-hidden="true"></i> Trayectoria académica
+      </h3>
 
-    <ul>
-      {% for level in person.academicHistory %}
-      <li>{{ level.degree }} en {{ level.institution }}</li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for level in person.academicHistory %}
+        <li>
+          {{ level.degree }} en {{ level.institution }}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h3 class="heading--3">
-      <i class="fa fa-briefcase" aria-hidden="true"></i> Trayectoria profesional
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-briefcase" aria-hidden="true"></i> Trayectoria profesional
+      </h3>
 
-    <ul>
-      {% for job in person.professionalHistory %}
-      <li>{{ job.position }} en {{ job.institution }}</li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for job in person.professionalHistory %}
+        <li>
+          {{ job.position }} en {{ job.institution }}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h3 class="heading--3">
-      <i class="fa fa-pie-chart" aria-hidden="true"></i> Elecciones
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-pie-chart" aria-hidden="true"></i> Elecciones
+      </h3>
 
-    <ul>
-      {% for election in person.elections %}
-      <li>
-        <p>{{ election.title }}, {{ election.date }}: {{ election.result.label }}</p>
-        {% if election.party.name %}
-        <p>{{ election.party.name }}</p>
-        {% endif %}
-        {% if election.coalition.name %}
-        <p>
-          {{ election.coalition.name }}:
-          {% for party in election.coalition.parties %}
-          {{ party.name }},
-          {% endfor %}
-        </p>
-        {% endif %}
-        <p>{{ election.result.votes.percentage }} ({{ election.result.votes.total }} votos)</p>
-      </li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for election in person.elections %}
+        <li>
+          <div class="section__left">
+            {{ election.date }}
+          </div>
+          <div class="section__right">
+            <p>{{ election.title }}: {{ election.result.label }}</p>
+            {% if election.party.name %}
+            <p>{{ election.party.name }}</p>
+            {% endif %}
+            {% if election.coalition.name %}
+            <p>
+              {{ election.coalition.name }}:
+              {% for party in election.coalition.parties %}
+              {{ party.name }},
+              {% endfor %}
+            </p>
+            {% endif %}
+            <p>{{ election.result.votes.percentage }} ({{ election.result.votes.total }} votos)</p>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h3 class="heading--3">
-      <i class="fa fa-book" aria-hidden="true"></i> Bibliografía
-    </h3>
+    <section>
+      <h3 class="heading--3">
+        <i class="section__icon fa fa-book" aria-hidden="true"></i> Bibliografía
+      </h3>
 
-    <ul>
-      {% for bibliographyItem in person.bibliography %}
-      <li>
-        <p><a href="{{ bibliographyItem.url }}" target="_blank">«{{ bibliographyItem.title }}»</a></p>
-        <p>{{ bibliographyItem.source }}</p>
-      </li>
-      {% endfor %}
-    </ul>
+      <ul class="list--unstyled">
+        {% for bibliographyItem in person.bibliography %}
+        <li>
+          <p><a href="{{ bibliographyItem.url }}" target="_blank">«{{ bibliographyItem.title }}»</a></p>
+          <p>{{ bibliographyItem.source }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
   </body>
 </html>

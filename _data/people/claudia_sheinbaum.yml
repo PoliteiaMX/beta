@@ -20,7 +20,7 @@ transparency:
 politicalPartyHistory:
   - id: morena
     start: 2014
-    end: hoy
+    end: now
     duration: 3
   - id: prd
     start: 1989
@@ -30,15 +30,16 @@ politicalPartyHistory:
 publicPositions:
   - title: Delegada de Tlalpan
     start: 2015-01-10
-    end: hoy
+    end: now
   - title: Secretaria de Medio Ambiente, Gobierno del Distrito Federal
     start: 2000-12-05
-    end: 2016
+    # Not the actual date
+    end: 2006-01-01
 
 politicsPositions:
   - title: Coordinadora de Organización Territorial en CDMX para Morena
     start: 2017-08-25
-    end: hoy
+    end: now
 
 academicHistory:
   - degree: Doctora en Ingeniería Energética

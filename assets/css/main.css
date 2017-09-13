@@ -318,6 +318,29 @@ html {
   margin-right: .125em;
 }
 
+.section__icon {
+  background-color: #4dd0e1; /* Material Cyan 400 */
+  color: #007c91; /* Material Cyan 600 - Dark */
+  display: inline-block;
+  box-sizing: content-box;
+  margin-right: .5em;
+  width: 2.25em;
+  height: 2.25em;
+  line-height: 2.25em;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.section__left {
+  float: left;
+  text-align: right;
+  width: 6em;
+}
+
+.section__right {
+  margin-left: 7.5em; /* +1.5em */
+}
+
 /* Infographic-specific styles, width 840px */
 .infographic.body {
   margin-top: 2em;
