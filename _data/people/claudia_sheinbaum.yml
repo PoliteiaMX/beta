@@ -14,8 +14,14 @@ social:
     url: https://www.youtube.com/channel/UCupLzFGl09cRc2zmYy2Z6Yg/
 
 transparency:
-  - title: 3de3
+  - title: Iniciativa 3de3
     url: http://3de3.mx/#/perfil?nombre=sheinbaum_pardo_claudia
+  - title: Declaración patrimonial (3de3)
+    url: http://3de3.mx/api/apiv1/descarga_archivo/sheinbaum_pardo_claudia/patrimonial/pdf
+  - title: Declaración de intereses (3de3)
+    url: http://3de3.mx/api/apiv1/descarga_archivo/sheinbaum_pardo_claudia/intereses/pdf
+  - title: Declaración fiscal (3de3)
+    url: http://3de3.mx/api/apiv1/descarga_archivo/sheinbaum_pardo_claudia/fiscal/pdf
 
 politicalPartyHistory:
   - id: morena
