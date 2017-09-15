@@ -65,6 +65,17 @@ html {
 }
 /* Pattern: social icons } */
 
+/* Pattern: link { */
+.link {
+  color: #2196F3; /* Material Blue 500 */
+  text-decoration: none;
+}
+
+.link--underline:hover {
+  text-decoration: underline;
+}
+/* Pattern: link } */
+
 .list--unstyled {
   list-style-type: none;
   padding-left: 0;
@@ -307,11 +318,6 @@ html {
 
 .profile__social-item:last-child {
   margin-right: 0;
-}
-
-.profile__social-link {
-  color: #000000;
-  text-decoration: none;
 }
 
 .profile__social-icon {
