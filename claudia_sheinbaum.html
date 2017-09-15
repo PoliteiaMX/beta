@@ -149,7 +149,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
       <ul class="list--unstyled">
         {% for position in person.publicPositions %}
         <li class="list__item">
-          <div class="section__left">
+          <div class="section__left period">
             {{ position.start | date: "%Y" }}
             {% if position.end == "now" %}
             (actual)
@@ -173,7 +173,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
       <ul class="list--unstyled">
         {% for position in person.politicsPositions %}
         <li class="list__item">
-          <div class="section__left">
+          <div class="section__left period">
             {{ position.start | date: "%Y" }}
             {% if position.end == "now" %}
             (actual)
@@ -225,7 +225,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
       <ul class="list--unstyled">
         {% for election in person.elections %}
         <li class="list__item">
-          <div class="section__left">
+          <div class="section__left period">
             {{ election.date }}
           </div>
           <div class="section__right">

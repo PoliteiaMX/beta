@@ -351,6 +351,10 @@ html {
   margin-left: 7.5em; /* +1.5em */
 }
 
+.period {
+  color: #90a4ae; /* Material Blue Grey 300 */
+}
+
 /* Infographic-specific styles, width 840px */
 .infographic.body {
   margin-top: 2em;
