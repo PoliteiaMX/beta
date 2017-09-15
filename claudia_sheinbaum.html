@@ -118,7 +118,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for transparencyItem in person.transparency %}
-        <li>
+        <li class="list__item">
           <a href="{{ transparencyItem.url }}" class="link link--underline" target="_blank">
             {{ transparencyItem.title }}
           </a>
@@ -134,7 +134,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for partyItem in person.politicalPartyHistory %}
-        <li>
+        <li class="list__item">
           {{ parties[partyItem.id].label }} ({{ partyItem.duration }} años)
         </li>
         {% endfor %}
@@ -148,7 +148,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for position in person.publicPositions %}
-        <li>
+        <li class="list__item">
           <div class="section__left">
             {{ position.start | date: "%Y" }}
             {% if position.end == "now" %}
@@ -172,7 +172,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for position in person.politicsPositions %}
-        <li>
+        <li class="list__item">
           <div class="section__left">
             {{ position.start | date: "%Y" }}
             {% if position.end == "now" %}
@@ -196,7 +196,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for level in person.academicHistory %}
-        <li>
+        <li class="list__item">
           {{ level.degree }} en {{ level.institution }}
         </li>
         {% endfor %}
@@ -210,7 +210,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for job in person.professionalHistory %}
-        <li>
+        <li class="list__item">
           {{ job.position }} en {{ job.institution }}
         </li>
         {% endfor %}
@@ -224,7 +224,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for election in person.elections %}
-        <li>
+        <li class="list__item">
           <div class="section__left">
             {{ election.date }}
           </div>
@@ -255,7 +255,7 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 
       <ul class="list--unstyled">
         {% for bibliographyItem in person.bibliography %}
-        <li>
+        <li class="list__item">
           <p>
             <a href="{{ bibliographyItem.url }}" class="link link--underline" target="_blank">
               «{{ bibliographyItem.title }}»

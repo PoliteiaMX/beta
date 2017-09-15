@@ -81,6 +81,10 @@ html {
   padding-left: 0;
 }
 
+.list__item {
+  margin-bottom: .5em;
+}
+
 .heading--1, .heading--2, .heading--3 {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
