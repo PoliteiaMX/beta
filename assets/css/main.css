@@ -76,6 +76,17 @@ html {
 }
 /* Pattern: link } */
 
+/* Utility: clearfix { */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+/* Utility: clearfix } */
+
 .list--unstyled {
   list-style-type: none;
   padding-left: 0;
@@ -139,16 +150,6 @@ html {
 .candidate-list {
   list-style-type: none;
   padding-left: 0;
-}
-
-/* Clearfix */
-.candidate-list:before, .candidate-list:after {
-  display: table;
-  content: " ";
-}
-
-.candidate-list:after {
-  clear: both;
 }
 
 .candidate {
