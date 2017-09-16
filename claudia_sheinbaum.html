@@ -6,6 +6,9 @@ permalink: /es/mexico/personas/claudia-sheinbaum
 {% assign currentPartyId = person.politicalPartyHistory[0].id %}
 {% assign currentParty = parties[currentPartyId] %}
 
+{% assign chartRadius = 24 %}
+{% assign doublePiRadius = chartRadius | times: 6.2831853 %}
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -38,6 +41,16 @@ permalink: /es/mexico/personas/claudia-sheinbaum
         .profile__avatar {
           background-image: url('{{ site.github.url }}/assets/images/people/{{ person.id }}_192px.jpg');
         }
+      }
+
+      .chart__svg-root {
+        width: {{ chartRadius | times: 2 }}px;
+        height: {{ chartRadius | times: 2 }}px;
+      }
+
+      .chart__circle--front {
+        stroke-dasharray: {{ doublePiRadius | ceil }}px;
+        stroke-dashoffset: {{ doublePiRadius | ceil }}px;
       }
     </style>
 
@@ -228,20 +241,55 @@ permalink: /es/mexico/personas/claudia-sheinbaum
           <div class="section__left period">
             {{ election.date }}
           </div>
-          <div class="section__right">
-            <p>{{ election.title }}: {{ election.result.label }}</p>
-            {% if election.party.name %}
-            <p>{{ election.party.name }}</p>
+          <div class="section__right clearfix">
+            {% if election.partyId %}
+            {% assign party = parties[election.partyId] %}
             {% endif %}
-            {% if election.coalition.name %}
-            <p>
-              {{ election.coalition.name }}:
-              {% for party in election.coalition.parties %}
-              {{ party.name }},
-              {% endfor %}
-            </p>
-            {% endif %}
-            <p>{{ election.result.votes.percentage }} ({{ election.result.votes.total }} votos)</p>
+            {% assign normalizedPercentage = election.result.votes.percentage | divided_by: 100.0 %}
+
+            <div class="election-info">
+              <p class="election-info__p">
+                {{ election.title }}:
+                {% if election.result.winner %}
+                Ganada
+                {% else %}
+                Perdida
+                {% endif %}
+              </p>
+              {% if election.partyId %}
+              <p class="election-info__p">{{ party.label }}</p>
+              {% endif %}
+              {% if election.coalition.name %}
+              <p class="election-info__p">
+                {{ election.coalition.name }}:
+                {% for party in election.coalition.parties %}
+                {{ party.name }},
+                {% endfor %}
+              </p>
+              {% endif %}
+              <p class="election-info__p">
+                {{ election.result.votes.percentage }} ({{ election.result.votes.total }} votos)
+              </p>
+            </div>
+
+            <div class="chart">
+              <svg class="chart__svg-root"
+                   viewBox="0 0 60 60">
+                <g transform="translate(30, 30)"
+                   fill="transparent">
+                  <circle r="{{ chartRadius }}"
+                          class="chart__circle chart__circle--back" />
+                  <circle r="{{ chartRadius }}"
+                          class="chart__circle chart__circle--front"
+                          transform="rotate(270)"
+                          style="stroke: {{ party.colorScheme[0] }};
+                                 stroke-dashoffset: {{ 1 | minus: normalizedPercentage | times: doublePiRadius | ceil }}px;"/>
+                </g>
+              </svg>
+              <i aria-hidden="true"
+                 class="chart__result fa fa-fw
+                        {% if election.result.winner %}fa-check{% else %}fa-close{% endif %}"></i>
+            </div>
           </div>
         </li>
         {% endfor %}

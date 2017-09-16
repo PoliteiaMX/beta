@@ -64,12 +64,9 @@ professionalHistory:
 elections:
   - title: Delegada de Tlalpan
     date: 2015
-    party:
-      id: morena
-      name: MORENA
+    partyId: morena
     result:
-      id: won
-      label: Ganada
+      winner: true
       votes:
         percentage: 29.52%
         total: 67236
