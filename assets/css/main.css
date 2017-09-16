@@ -332,7 +332,8 @@ html {
 .section__icon {
   background-color: #4dd0e1; /* Material Cyan 400 */
   color: #007c91; /* Material Cyan 600 - Dark */
-  display: inline-block;
+  display: inline-block; /* Keeping it for the <IE8 crowd ¯\_(ツ)_/¯ */
+  display: inline-table;
   box-sizing: content-box;
   margin-right: .5em;
   width: 2.25em;
