@@ -23,9 +23,9 @@ nueva_alianza:
   colorScheme:
     - "#00a4ac"
   logos:
-    x1: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/25px-PNA_Party_%28Mexico%29.svg.png
-    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/38px-PNA_Party_%28Mexico%29.svg.png
-    x2: //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PNA_Party_%28Mexico%29.svg/50px-PNA_Party_%28Mexico%29.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PNA_logo_%28Mexico%29.svg/25px-PNA_logo_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PNA_logo_%28Mexico%29.svg/38px-PNA_logo_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PNA_logo_%28Mexico%29.svg/50px-PNA_logo_%28Mexico%29.svg.png
 
 pan:
   id: pan
@@ -45,9 +45,9 @@ prd:
   colorScheme:
     - "#ffcb01"
   logos:
-    x1: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/25px-PRD_Party_%28Mexico%29.svg.png
-    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/38px-PRD_Party_%28Mexico%29.svg.png
-    x2: //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PRD_Party_%28Mexico%29.svg/50px-PRD_Party_%28Mexico%29.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/9/91/PRD_logo_without_border_%28Mexico%29.svg/25px-PRD_logo_without_border_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/9/91/PRD_logo_without_border_%28Mexico%29.svg/38px-PRD_logo_without_border_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/9/91/PRD_logo_without_border_%28Mexico%29.svg/50px-PRD_logo_without_border_%28Mexico%29.svg.png
 
 
 pri:
@@ -57,9 +57,9 @@ pri:
   colorScheme:
     - "#00923f"
   logos:
-    x1: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/25px-PRI_Party_%28Mexico%29.svg.png
-    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/38px-PRI_Party_%28Mexico%29.svg.png
-    x2: //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PRI_Party_%28Mexico%29.svg/50px-PRI_Party_%28Mexico%29.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PRI_logo_%28Mexico%29.svg/25px-PRI_logo_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PRI_logo_%28Mexico%29.svg/38px-PRI_logo_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PRI_logo_%28Mexico%29.svg/50px-PRI_logo_%28Mexico%29.svg.png
 
 pvem:
   id: pvem
@@ -68,9 +68,9 @@ pvem:
   colorScheme:
     - "#50b747"
   logos:
-    x1: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/25px-Mexican_Green_Party.svg.png
-    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/38px-Mexican_Green_Party.svg.png
-    x2: //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mexican_Green_Party.svg/50px-Mexican_Green_Party.svg.png
+    x1: //upload.wikimedia.org/wikipedia/commons/thumb/2/28/PVE_logo_%28Mexico%29.svg/25px-PVE_logo_%28Mexico%29.svg.png
+    x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/2/28/PVE_logo_%28Mexico%29.svg/38px-PVE_logo_%28Mexico%29.svg.png
+    x2: //upload.wikimedia.org/wikipedia/commons/thumb/2/28/PVE_logo_%28Mexico%29.svg/50px-PVE_logo_%28Mexico%29.svg.png
 
 # Metaparties
 
