@@ -1,6 +1,8 @@
 ---
 permalink: /
 ---
+{% assign people = site.data.people %}
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,16 +23,13 @@ permalink: /
     <h3>Personas</h3>
 
     <ul>
+      {% for person in people %}
       <li>
-        <a href="{{ site.github.url }}/es/mexico/personas/andres-manuel-lopez-obrador">
-          Andrés Manuel López Obrador: Presidente Nacional del Movimiento Regeneración Nacional
+        <a href="{{ site.github.url }}/es/mexico/personas/{{ person[1].id | replace: "_", "-" }}">
+          {{ person[1].name }}: {{ person[1].description }}
         </a>
       </li>
-      <li>
-        <a href="{{ site.github.url }}/es/mexico/personas/claudia-sheinbaum">
-          Claudia Sheinbaum: Delegada de Tlalpan
-        </a>
-      </li>
+      {% endfor %}
     </ul>
 
     <h3>2018</h3>
