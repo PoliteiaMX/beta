@@ -45,14 +45,23 @@ pan:
 pas:
   id: pas
   label: Partido Alianza Social
+  colorScheme:
+    # Unknown, using "Others" colour
+    - "#9e9e9e" # Material Grey 500
 
 pms:
   id: pms
   label: Partido Mexicano Socialista
+  colorScheme:
+    # Unknown, using "Others" colour
+    - "#9e9e9e" # Material Grey 500
 
 pps:
   id: pps
   label: Partido Popular Socialista
+  colorScheme:
+    # Unknown, using "Others" colour
+    - "#9e9e9e" # Material Grey 500
 
 prd:
   id: prd
@@ -68,10 +77,16 @@ prd:
 psn:
   id: psn
   label: Partido de la Sociedad Nacionalista
+  colorScheme:
+    # Unknown, using "Others" colour
+    - "#9e9e9e" # Material Grey 500
 
 pfcrn:
   id: pfcrn
   label: Partido del Frente Cardenista de Reconstrucción Nacional
+  colorScheme:
+    # Unknown, using "Others" colour
+    - "#9e9e9e" # Material Grey 500
 
 pt:
   id: pt
