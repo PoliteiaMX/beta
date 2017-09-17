@@ -143,7 +143,13 @@
 
       <ul class="list--unstyled">
         {% for partyItem in person.politicalPartyHistory %}
+        {% assign party = parties[partyItem.id] %}
         <li class="list__item">
+          <img class="political-party-history__logo"
+               alt="{{ party.shortLabel }}"
+               title="{{ party.label }}"
+               src="{{ party.logos.x1 }}"
+               srcset="{{ party.logos.x1_5 }} 1.5x, {{ party.logos.x2 }} 2x">
           {{ parties[partyItem.id].label }} ({{ partyItem.duration }} años)
         </li>
         {% endfor %}

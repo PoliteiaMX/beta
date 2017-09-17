@@ -246,6 +246,11 @@ html {
   padding: 0 .5em;
 }
 
+.political-party-history__logo {
+  vertical-align: middle;
+  margin-right: .25em;
+}
+
 .footer {
   font-family: Georgia, Times, "Times New Roman", serif;
   text-align: center;
