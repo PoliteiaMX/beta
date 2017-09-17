@@ -157,7 +157,7 @@ html {
   margin-bottom: 1em;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 720px) {
   .candidate {
     display: inline-block;
     float: left;
@@ -167,7 +167,7 @@ html {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1040px) {
   .candidate {
     width: 33.3%;
   }
@@ -205,15 +205,24 @@ html {
   margin-bottom: .25em;
 }
 
-.candidate__social-link {
+.candidate__social-link, .candidate__confirmation {
   display: inline-block;
+}
+
+.candidate__social-link {
   font-size: 1.5em;
   padding: .25em .125em;
   text-decoration: none;
 }
 
+@media (min-width: 720px) {
+  .candidate__social-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .candidate__confirmation {
-  display: inline-block;
   vertical-align: text-bottom;
   background-color: white;
   color: #4caf50; /* Material Green 500 */
@@ -221,6 +230,7 @@ html {
   text-decoration: none;
   font-size: .75em;
   line-height: 1.875em;
+  margin-top: .5em;
   margin-right: .5em;
   padding: 0 .5em;
 }

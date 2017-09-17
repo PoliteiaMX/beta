@@ -166,23 +166,31 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
           <p class="candidate__position">{{ candidate.occupation }}</p>
           <div class="candidate__social h-infographic-hide">
             {% if candidate.confirmation %}
-            <a href="{{ candidate.confirmation.sourceUrl }}" class="candidate__confirmation" target="_blank">
-              <i class="fa fa-check" aria-hidden="true"></i> {{ candidate.confirmation.date }}
+            <a href="{{ candidate.confirmation.sourceUrl }}"
+               class="candidate__confirmation"
+               target="_blank">
+              <i class="fa fa-fw fa-check" aria-hidden="true"></i> {{ candidate.confirmation.date }}
             </a>
             {% endif %}
             {% if candidate.social.website %}
-            <a href="{{ candidate.social.website }}" class="candidate__social-link social-icon--website" target="_blank">
-              <i class="fa fa-globe" aria-hidden="true"></i>
+            <a href="{{ candidate.social.website }}"
+               class="candidate__social-link social-icon--website"
+               target="_blank">
+              <i class="fa fa-fw fa-globe" aria-hidden="true"></i>
             </a>
             {% endif %}
             {% if candidate.social.twitter %}
-            <a href="{{ candidate.social.twitter }}" class="candidate__social-link social-icon--twitter" target="_blank">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
+            <a href="{{ candidate.social.twitter }}"
+               class="candidate__social-link social-icon--twitter"
+               target="_blank">
+              <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
             </a>
             {% endif %}
             {% if candidate.social.facebook %}
-            <a href="{{ candidate.social.facebook }}" class="candidate__social-link social-icon--facebook" target="_blank">
-              <i class="fa fa-facebook-official " aria-hidden="true"></i>
+            <a href="{{ candidate.social.facebook }}"
+               class="candidate__social-link social-icon--facebook"
+               target="_blank">
+              <i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i>
             </a>
             {% endif %}
           </div>
@@ -204,21 +212,21 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
           <a href="https://twitter.com/politeiamx/"
              target="_blank"
              class="footer__social-link social-icon--twitter">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
           </a>
         </li>
         <li class="footer__social-item">
           <a href="https://facebook.com/politeiamx/"
              target="_blank"
              class="footer__social-link social-icon--facebook">
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i>
           </a>
         </li>
         <li class="footer__social-item">
           <a href="https://github.com/politeiamx/"
              target="_blank"
              class="footer__social-link social-icon--github">
-            <i class="fa fa-github" aria-hidden="true"></i>
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i>
           </a>
         </li>
         <li class="footer__social-item footer__social-item--handle">/PoliteiaMX</li>
