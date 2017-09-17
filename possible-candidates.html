@@ -3,6 +3,7 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
 ---
 
 {% assign parties = site.data.parties %}
+{% assign people = site.data.people %}
 {% assign possiblePresidentialCandidates = site.data.possiblePresidentialCandidates %}
 {% assign itemsPerPage = 14 %}
 
@@ -162,7 +163,14 @@ permalink: /es/mexico/2018/elecciones-presidenciales/posibles-candidatos
           </span>
         </div>
         <div class="candidate__info">
-          <h3 class="candidate__name heading--3">{{ candidate.name }}</h3>
+          <h3 class="candidate__name heading--3">
+            {% if people[candidate.id] %}
+            <a href="{{ site.github.url }}/es/mexico/personas/{{ candidate.id | replace: "_", "-" }}"
+               class="link link--underline">{{ candidate.name }}</a>
+            {% else %}
+            {{ candidate.name }}
+            {% endif %}
+          </h3>
           <p class="candidate__position">{{ candidate.occupation }}</p>
           <div class="candidate__social h-infographic-hide">
             {% if candidate.confirmation %}
