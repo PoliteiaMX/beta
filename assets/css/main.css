@@ -107,7 +107,6 @@ html {
 
 .breadcrumbs__item {
   display: inline;
-  color: #607d8b; /* Material Blue Grey 500 */
 }
 
 .breadcrumbs__item:after {
@@ -117,6 +116,18 @@ html {
 
 .breadcrumbs__item:last-child:after {
   content: none;
+}
+
+.breadcrumbs__link {
+  text-decoration: none;
+}
+
+.breadcrumbs__link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs__link, .breadcrumbs__link:hover, .breadcrumbs__link:visited, .breadcrumbs__link:active {
+  color: #607d8b; /* Material Blue Grey 500 */
 }
 
 .summary {
