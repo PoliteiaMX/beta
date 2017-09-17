@@ -250,6 +250,9 @@
           <div class="section__right clearfix">
             {% if election.partyId %}
             {% assign party = parties[election.partyId] %}
+            {% elsif election.coalition %}
+            {% assign partyId = election.coalition.parties[0] %}
+            {% assign party = parties[partyId] %}
             {% else %}
             {% assign party = parties.others %}
             {% endif %}
