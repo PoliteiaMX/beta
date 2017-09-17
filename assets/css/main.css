@@ -31,7 +31,7 @@ html {
   border-radius: 50%;
   background-size: cover;
   background-position: center center;
-  border: 1px solid #607d8b; /* Material Blue Grey 500 */
+  border: 1px solid #eeeeee; /* Material Grey 200 */
 }
 
 .avatar__party {
