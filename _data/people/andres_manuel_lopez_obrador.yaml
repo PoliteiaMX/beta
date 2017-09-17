@@ -1,292 +1,307 @@
----
-id: andres-manuel-lopez-obrador
+id: andres_manuel_lopez_obrador
 name: Andrés Manuel López Obrador
-avatarUrl: http://i.imgur.com/48MXywT.png
 description: Presidente Nacional del Movimiento Regeneración Nacional
 
 social:
   twitter:
+    url: https://twitter.com/lopezobrador_/
     username: lopezobrador_
   facebook:
-    url: https://www.facebook.com/lopezobrador.org.mx
+    url: https://www.facebook.com/lopezobrador.org.mx/
     username: lopezobrador.org.mx
   website:
-    url: http://lopezobrador.org.mx
+    url: http://lopezobrador.org.mx/
 
 transparency:
 - title: 3de3
   url: http://3de3.mx/#/perfil?nombre=lopez_obrador_andres_manuel
 
 politicalPartyHistory:
-- id: pri
-  acronym: PRI
-  start: 1976
-  end: 1983
-  duration: 12
-  # Calculate on the fly?
-  durationPercentage: 33.333
-- id: prd
-  acronym: PRD
-  start: 1989
-  end: 2012
-  duration: 23
-  durationPercentage: 63.888
-- id: morena
-  acronym: Morena
-  start: 2012
-  end: now
-  duration: 5
-  durationPercentage: 2.777
+  - id: morena
+    start: 2014
+    end: now
+    duration: 3
+  - id: prd
+    start: 1989
+    end: 2012
+    duration: 23
+  - id: pri
+    start: 1976
+    end: 1983
+    duration: 12
 
 publicPositions:
-- title: Jefe de Gobierno de Distrito Federal
-  start: 2000-12-05
-  end: 2005-07-29
-- title: Director de Promoción Social del Instituto Nacional del Consumidor
-  start: 1984
-  end: 1984
-- title: Director del Instituto Indigenista de Tabasco
-  start: 1977
-  end: 1982
+  - title: Jefe de Gobierno de Distrito Federal
+    start: 2000-12-05
+    end: 2005-07-29
+  - title: Director de Promoción Social del Instituto Nacional del Consumidor
+    # Not the actual dates (only year)
+    start: 1984-01-01
+    end: 1984-01-01
+  - title: Director del Instituto Indigenista de Tabasco
+    # Not the actual dates (only year)
+    start: 1977-01-01
+    end: 1982-01-01
 
 politicsPositions:
-- title: Presidente Nacional del Movimiento Regeneración Nacional
-  start: 2015-11-20
-  end: now
-- title: Presidente del Consejo Nacional del Movimiento Regeneración Nacional
-  start: 2014-11-20
-  end: 2015-11-20
-- title: Presidente Nacional del Partido de la Revolución Democrática
-  start: 1999
-  end: 1996
-- title: Presidente Estatal del Partido Revolucionario Institucional de Tabasco
-  start: 1983
-  end: 1983
+  - title: Presidente Nacional del Movimiento Regeneración Nacional
+    start: 2015-11-20
+    end: now
+  - title: Presidente del Consejo Nacional del Movimiento Regeneración Nacional
+    start: 2014-11-20
+    end: 2015-11-20
+  - title: Presidente Nacional del Partido de la Revolución Democrática
+    # Not the actual dates (only year)
+    start: 1999-01-01
+    end: 1996-01-01
+  - title: Presidente Estatal del Partido Revolucionario Institucional de Tabasco
+    # Not the actual dates (only year)
+    start: 1983-01-01
+    end: 1983-01-01
 
 academicHistory:
-- degree: Licenciado en Ciencias Políticas y Administración Pública
-  institution: Universidad Nacional Autónoma de México
-
-topics:
-- title: Matrimonio igualitario
-  position:
-    id: indefinite
-    title: Indefinida
-  description:
-    El candidato afirma que el tema debe someterse a un plebiscito ciudadano para decidir.
-  quote:
-    text: Lo fundamental es la honestidad, eso [legalizar el aborto y los matrimonios gay], con todo respeto y autenticidad, lo considero como algo no tan importante [...]
-    date: 2016
-  sources:
-  - title: Para López Obrador, legalizar el aborto y el matrimonio gay no es algo “tan importante”
-    source: Animal Político
-    url: http://www.animalpolitico.com/2015/06/para-lopez-obrador-legalizar-el-aborto-y-el-matrimonio-gay-no-es-algo-tan-importante/
-
-- title: Despenalización del aborto
-  position:
-    id: indefinite
-    title: Indefinida
-  description:
-    El candidato afirma que el tema debe someterse a un plebiscito ciudadano para decidir.
-  quote:
-    text: "[...] yo soy partidario de las libertades, pero cuando se trata de esos temas, vamos a que los ciudadanos sean los que resuelvan."
-    date: 2016
-  sources:
-  - title: "Puntualiza AMLO: sobre libertad sexual y aborto es la gente la que decide"
-    source: Excélsior
-    url: http://www.excelsior.com.mx/nacional/2016/10/30/1125276
-  - title: "Recriminan mujeres a AMLO postura sobre el aborto"
-    source: Proceso
-    url: http://www.proceso.com.mx/375002/recriminan-mujeres-a-amlo-postura-sobre-el-aborto
-
-- title: Adopción por parejas del mismo sexo
-  position:
-    id: unknown
-    title: Desconocida
-
-- title: Pena de muerte
-  position:
-    id: against
-    title: En contra
-  description:
-    El candidato se ha manifestado en contra de la pena de muerte.
-  quote:
-    text: "No debe de haber pena de muerte en ningún país del mundo."
-    date: 2014
-  sources:
-  - title: "Las autoridades deben respetar la vida privada de los ciudadanos e impedir la intervención de celulares: AMLO"
-    source: lopezobrador.org.mx
-    url: http://lopezobrador.org.mx/2014/01/17/fotos-amlo-en-reunion-con-representantes-de-morena-en-manzanillo-colima/
-
-- title: Ayuda a personas mayores
-  position:
-    id: inFavour
-    title: A favor
-  description:
-    El candidato está a favor.
-
-- title: Eutanasia
-  position:
-    id: unknown
-    title: Desconocida
-  description:
-    ¿Plebiscito?
-
-- title: Austeridad gubernamental
-  position:
-    id: inFavour
-    title: A favor
-
-- title: Calentamiento global
-  position:
-    id: unknown
-    title: Desconocida
-
-- title: Seguro médico universal
-  position:
-    id: indefinite
-    title: Indefinida
-  description:
-    Andrés Manuel sugiere un plebiscito.
+  - degree: Licenciado en Ciencias Políticas y Administración Pública
+    institution: Universidad Nacional Autónoma de México
 
 elections:
-- title: Presidencia de la República
-  date: 2012
-  coalition:
-    name: Movimiento Progresista
-    parties:
-    - id: prd
-      name: Partido de la Revolución Democrática
-    - id: pt
-      name: Partido del Trabajo
-    - id: convergencia
-      name: Convergencia
-  result:
-    id: lost
-    label: Perdida
-    votes:
-      percentage: 31.59%
-      total: 15896999
-- title: Presidencia de la República
-  date: 2006
-  coalition:
-    name: Coalición Por el Bien de Todos
-    parties:
-    - id: prd
-      name: Partido de la Revolución Democrática
-    - id: pt
-      name: Partido del Trabajo
-    - id: mc
-      name: Movimiento Ciudadano
-  result:
-    id: lost
-    label: Perdida
-    votes:
-      percentage: 35.29%
-      total: 14756350
-- title: Jefatura de Gobierno del Distrito Federal
-  date: 2000
-  coalition:
-    name: (Sin coalición, candidato común)
-    parties:
-    - id: prd
-      name: Partido de la Revolución Democrática
-    - id: pt
-      name: Partido del Trabajo
-    - id: convergencia
-      name: Convergencia
-    - id: sociedad_nacionalista
-      name: Partido de la Sociedad Nacionalista
-    - id: alianza_social
-      name: Partido Aliana Social
-  result:
-    id: won
-    label: Ganada
-    votes:
-      percentage: 37.7%
-      total: 1641398
-- title: Gubernatura de Tabasco
-  date: 1994
-  party:
-    id: prd
-    name: Partido de la Revolución Democrática
-  result:
-    id: lost
-    label: Perdida
-    votes:
-      percentage: 37.75%
-      total: 200087
-- title: Gubernatura de Tabasco
-  date: 1988
-  coalition:
-    name: Frente Democrático Nacional
-    parties:
-    - id: pps
-      name: Partido Popular Socialista
-    - id: pms
-      name: Partido Mexicano Socialista
-    - id: pfcrn
-      name: Partido del Frente Cardenista de Reconstrucción Nacional
-  result:
-    id: lost
-    label: Perdida
-    votes:
-      percentage: 20.9%
-      total: 54890
+  - title: Presidencia de la República
+    date: 2012
+    coalition:
+      name: Movimiento Progresista
+      parties:
+        - prd
+        - pt
+        - convergencia
+    result:
+      winner: false
+      votes:
+        percentage: 31.59%
+        total: 15896999
+
+  - title: Presidencia de la República
+    date: 2006
+    coalition:
+      name: Coalición Por el Bien de Todos
+      parties:
+      - prd
+      - pt
+      - mc
+    result:
+      winner: false
+      votes:
+        percentage: 35.29%
+        total: 14756350
+
+  - title: Jefatura de Gobierno del Distrito Federal
+    date: 2000
+    coalition:
+      name: (Sin coalición, candidato común)
+      parties:
+      - prd
+      - pt
+      - convergencia
+      - psn
+      - pas
+    result:
+      winner: true
+      votes:
+        percentage: 37.7%
+        total: 1641398
+
+  - title: Gubernatura de Tabasco
+    date: 1994
+    partyId: prd
+    result:
+      winner: false
+      votes:
+        percentage: 37.75%
+        total: 200087
+
+  - title: Gubernatura de Tabasco
+    date: 1988
+    coalition:
+      name: Frente Democrático Nacional
+      parties:
+      - pps
+      - pms
+      - pfcrn
+    result:
+      id: lost
+      label: Perdida
+      votes:
+        percentage: 20.9%
+        total: 54890
+
+topics:
+  - title: Matrimonio igualitario
+    position:
+      id: indefinite
+      title: Indefinida
+    description:
+      El candidato afirma que el tema debe someterse a un plebiscito ciudadano para decidir.
+    quote:
+      text: Lo fundamental es la honestidad, eso [legalizar el aborto y los matrimonios gay], con todo respeto y autenticidad, lo considero como algo no tan importante [...]
+      date: 2016
+    sources:
+    - title: Para López Obrador, legalizar el aborto y el matrimonio gay no es algo “tan importante”
+      source: Animal Político
+      url: http://www.animalpolitico.com/2015/06/para-lopez-obrador-legalizar-el-aborto-y-el-matrimonio-gay-no-es-algo-tan-importante/
+
+  - title: Despenalización del aborto
+    position:
+      id: indefinite
+      title: Indefinida
+    description:
+      El candidato afirma que el tema debe someterse a un plebiscito ciudadano para decidir.
+    quote:
+      text: "[...] yo soy partidario de las libertades, pero cuando se trata de esos temas, vamos a que los ciudadanos sean los que resuelvan."
+      date: 2016
+    sources:
+    - title: "Puntualiza AMLO: sobre libertad sexual y aborto es la gente la que decide"
+      source: Excélsior
+      url: http://www.excelsior.com.mx/nacional/2016/10/30/1125276
+    - title: "Recriminan mujeres a AMLO postura sobre el aborto"
+      source: Proceso
+      url: http://www.proceso.com.mx/375002/recriminan-mujeres-a-amlo-postura-sobre-el-aborto
+
+  - title: Adopción por parejas del mismo sexo
+    position:
+      id: unknown
+      title: Desconocida
+
+  - title: Pena de muerte
+    position:
+      id: against
+      title: En contra
+    description:
+      El candidato se ha manifestado en contra de la pena de muerte.
+    quote:
+      text: "No debe de haber pena de muerte en ningún país del mundo."
+      date: 2014
+    sources:
+    - title: "Las autoridades deben respetar la vida privada de los ciudadanos e impedir la intervención de celulares: AMLO"
+      source: lopezobrador.org.mx
+      url: http://lopezobrador.org.mx/2014/01/17/fotos-amlo-en-reunion-con-representantes-de-morena-en-manzanillo-colima/
+
+  - title: Ayuda a personas mayores
+    position:
+      id: inFavour
+      title: A favor
+    description:
+      El candidato está a favor.
+
+  - title: Eutanasia
+    position:
+      id: unknown
+      title: Desconocida
+    description:
+      ¿Plebiscito?
+
+  - title: Austeridad gubernamental
+    position:
+      id: inFavour
+      title: A favor
+
+  - title: Calentamiento global
+    position:
+      id: unknown
+      title: Desconocida
+
+  - title: Seguro médico universal
+    position:
+      id: indefinite
+      title: Indefinida
+    description:
+      Andrés Manuel sugiere un plebiscito.
 
 controversies:
-- title: Declaración Patrimonial e Iniciativa 3 de 3
-  description: >
-    Después de criticar la iniciativa ciudadana "3 de 3" como ineficaz [¿cita exacta?], López Obrador presentó
-    su declaración patrimonial, de intereses y fiscal en Agosto de 2016. Posteriormente la rectificó tras las
-    precisiones solicitadas por el Instituto Mexicano por la Competitividad (IMCO) [¿qué precisiones?].
+  - title: Declaración Patrimonial e Iniciativa 3 de 3
+    description: >
+      Después de criticar la iniciativa ciudadana "3 de 3" como ineficaz [¿cita exacta?], López Obrador presentó
+      su declaración patrimonial, de intereses y fiscal en Agosto de 2016. Posteriormente la rectificó tras las
+      precisiones solicitadas por el Instituto Mexicano por la Competitividad (IMCO) [¿qué precisiones?].
 
 
-    Sin embargo [mal intro], el Wall Street Journal publicó que dos departamentos propiedad del tabasqueño fueron omitidos
-    en su declaración. Su portavoz presentó documentos que muestran que habían sido transferidas a uno de sus
-    hijos en 2005.
+      Sin embargo [mal intro], el Wall Street Journal publicó que dos departamentos propiedad del tabasqueño fueron omitidos
+      en su declaración. Su portavoz presentó documentos que muestran que habían sido transferidas a uno de sus
+      hijos en 2005.
 
 
-    Como Jefe de Gobierno del Distrito Federal, Andrés Manuel presentó declaraciones patrimoniales de 2000 a
-    2004, en las cuáles se mencionan tres propiedades en Teapa, Tabasco, que en sus declaraciones más
-    recientes no son mencionadas, y no manifesta haber vendido o transferido.
+      Como Jefe de Gobierno del Distrito Federal, Andrés Manuel presentó declaraciones patrimoniales de 2000 a
+      2004, en las cuáles se mencionan tres propiedades en Teapa, Tabasco, que en sus declaraciones más
+      recientes no son mencionadas, y no manifesta haber vendido o transferido.
 
 
-    López Obrador ha publicado 16 libros y ha declarado tener ingresos por las regalías de los mismos, aunque
-    no los ha incluído en su última declaración patrimonial. De igual forma, aunque ha manifestado percibir
-    ingresos derivados de conferencias que imparte, no los menciona en su declaración de 2016.
+      López Obrador ha publicado 16 libros y ha declarado tener ingresos por las regalías de los mismos, aunque
+      no los ha incluído en su última declaración patrimonial. De igual forma, aunque ha manifestado percibir
+      ingresos derivados de conferencias que imparte, no los menciona en su declaración de 2016.
 
-- title: Ambigüedad respecto a matrimonio igualitario y despenalización del aborto
-  description: >
-    López Obrador ha evitado pronunciarse en contra o a favor de la legalización de uniones civiles
-    homosexuales y la despenalización del aborto a nivel federal. Afirma que esa decisión le corresponde al
-    pueblo de México y que de ser electo presidente convocará a un plebiscito para que la ciudadanía sea quien
-    elija.
-
-
-    Organizaciones de la comunidad LGBT han criticado su posición como conservadora, y le han exigido que se
-    pronuncie a favor. [¿Derechos humanos también? ¿PRD y la izquierda?]
+  - title: Ambigüedad respecto a matrimonio igualitario y despenalización del aborto
+    description: >
+      López Obrador ha evitado pronunciarse en contra o a favor de la legalización de uniones civiles
+      homosexuales y la despenalización del aborto a nivel federal. Afirma que esa decisión le corresponde al
+      pueblo de México y que de ser electo presidente convocará a un plebiscito para que la ciudadanía sea quien
+      elija.
 
 
-    Mientras tanto, miembros [vocero] de la iglesia católica han celebrado su postura, al considerarla en
-    defensa de las "familias tradicionales".
+      Organizaciones de la comunidad LGBT han criticado su posición como conservadora, y le han exigido que se
+      pronuncie a favor. [¿Derechos humanos también? ¿PRD y la izquierda?]
+
+
+      Mientras tanto, miembros [vocero] de la iglesia católica han celebrado su postura, al considerarla en
+      defensa de las "familias tradicionales".
 
 bibliography:
-- title: Andrés Manuel López Obrador
-  source: Wikipedia (español)
-  url: https://es.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador
-- title: AMLO es el nuevo presidente de Morena
-  source: Milenio
-  url: http://www.milenio.com/politica/amlo_morena-amlo_presidente_morena-amlo_lider_morena-elecciones_morena_0_631737045.html
-- title: Borran paso de AMLO por el PRI en su semblanza oficial
-  source: Animal Político
-  url: http://www.animalpolitico.com/2012/01/borran-paso-de-amlo-por-el-pri-en-su-semblanza-oficial/
-- title: Andrés Manuel López Obrador
-  source: RT
-  url: https://actualidad.rt.com/rtpedia/234835-andres-manuel-lopez-obrador
-- title: Semblanza
-  source: lopezobrador.org.mx
-  url: http://lopezobrador.org.mx/semblanza/
-- title: Gobernantes del Distrito Federal
-  source: Agencia de Gestión Urbana de la Ciudad de México
-  url: http://data.agu.cdmx.gob.mx/gobernantes-del-distrito-federal/
+  - title: AMLO es el nuevo presidente de Morena
+    source: Milenio
+    url: http://www.milenio.com/politica/amlo_morena-amlo_presidente_morena-amlo_lider_morena-elecciones_morena_0_631737045.html
+  - title: Borran paso de AMLO por el PRI en su semblanza oficial
+    source: Animal Político
+    url: http://www.animalpolitico.com/2012/01/borran-paso-de-amlo-por-el-pri-en-su-semblanza-oficial/
+  - title: Andrés Manuel López Obrador
+    source: RT
+    url: https://actualidad.rt.com/rtpedia/234835-andres-manuel-lopez-obrador
+  - title: Semblanza
+    source: lopezobrador.org.mx
+    url: http://lopezobrador.org.mx/semblanza/
+  - title: Gobernantes del Distrito Federal
+    source: Agencia de Gestión Urbana de la Ciudad de México
+    url: http://data.agu.cdmx.gob.mx/gobernantes-del-distrito-federal/
+  # - title: Andrés Manuel López Obrador
+  #   source: Wikipedia (español)
+  #   url: https://es.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador
+  # - title: Elecciones federales en México de 2012
+  #   source: Wikipedia en español
+  #   url: https://es.wikipedia.org/wiki/Elecciones_federales_en_M%C3%A9xico_de_2012
+  #   sections: Elecciones
+  # - url: https://es.wikipedia.org/wiki/Elecciones_federales_en_M%C3%A9xico_de_2006
+  # - url: https://es.wikipedia.org/wiki/Elecciones_en_el_Distrito_Federal_de_M%C3%A9xico_de_2000
+  # - url: https://es.wikipedia.org/wiki/Elecciones_estatales_de_Tabasco_de_1994
+  # - url: https://es.wikipedia.org/wiki/Elecciones_estatales_de_Tabasco_de_1988
+  # - url: http://www.animalpolitico.com/2016/08/andres-manuel-lopez-obrador-presenta-su-3de3/
+  #   sections:
+  #   - controversies
+  # - url: http://www.elfinanciero.com.mx/nacional/lopez-obrador-rechaza-que-haya-mentido-en-su-3de3.html
+  #   sections:
+  #   - controversies
+  # - url: http://lopezobrador.org.mx/2016/08/10/presenta-amlo-ley3de3/
+  #   sections:
+  #   - controversies
+  # - url: https://www.wsj.com/articles/mexican-presidential-hopeful-andres-manuel-lopez-obrador-failed-to-disclose-all-his-assets-1475018561
+  #   sections:
+  #   - controversies
+  # - url: https://www.wsj.com/articles/lopez-obrador-omitio-activos-en-su-declaracion-1475019945
+  #   sections:
+  #   - controversies
+  # - url: http://www.animalpolitico.com/2016/08/propiedades-obrador-dono-3de3/
+  #   sections:
+  #   - controversies
+  # - url: http://www.elfinanciero.com.mx/nacional/amlo-declaro-en-el-2000-tres-casas-en-teapa-y-nunca-las-volvio-a-citar.html
+  #   sections:
+  #   - controversies
+  # - url: http://www.elfinanciero.com.mx/nacional/amlo-oculta-los-gastos-de-sus-206-giras-y-37-viajes-en-avion-de-2015.html
+  #   sections:
+  #   - controversies
+  # - url: http://www.eluniversal.com.mx/articulo/nacion/politica/2016/09/10/exigen-lopez-obrador-defender-matrimonios-igualitarios
+  #   sections:
+  #   - controversies

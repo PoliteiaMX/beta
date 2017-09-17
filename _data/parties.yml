@@ -1,3 +1,7 @@
+convergencia:
+  id: convergencia
+  label: Convergencia
+
 mc:
   id: mc
   label: Movimiento Ciudadano
@@ -38,6 +42,18 @@ pan:
     x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/38px-PAN_%28Mexico%29.svg.png
     x2: //upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_%28Mexico%29.svg/50px-PAN_%28Mexico%29.svg.png
 
+pas:
+  id: pas
+  label: Partido Alianza Social
+
+pms:
+  id: pms
+  label: Partido Mexicano Socialista
+
+pps:
+  id: pps
+  label: Partido Popular Socialista
+
 prd:
   id: prd
   label: Partido de la Revolución Democrática
@@ -49,6 +65,17 @@ prd:
     x1_5: //upload.wikimedia.org/wikipedia/commons/thumb/9/91/PRD_logo_without_border_%28Mexico%29.svg/38px-PRD_logo_without_border_%28Mexico%29.svg.png
     x2: //upload.wikimedia.org/wikipedia/commons/thumb/9/91/PRD_logo_without_border_%28Mexico%29.svg/50px-PRD_logo_without_border_%28Mexico%29.svg.png
 
+psn:
+  id: psn
+  label: Partido de la Sociedad Nacionalista
+
+pt:
+  id: pfcrn
+  label: Partido del Frente Cardenista de Reconstrucción Nacional
+
+pt:
+  id: pt
+  label: Partido del Trabajo
 
 pri:
   id: pri
@@ -86,5 +113,4 @@ others:
   label: Otros
   shortLabel: Otros
   colorScheme:
-    # - "#bdc3c7"
-    - "#34495e"
+    - "#9e9e9e" # Material Grey 500
