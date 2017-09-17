@@ -233,6 +233,8 @@
           <div class="section__right clearfix">
             {% if election.partyId %}
             {% assign party = parties[election.partyId] %}
+            {% else %}
+            {% assign party = parties.others %}
             {% endif %}
             {% assign normalizedPercentage = election.result.votes.percentage | divided_by: 100.0 %}
 
@@ -251,8 +253,9 @@
               {% if election.coalition.name %}
               <p class="election-info__p">
                 {{ election.coalition.name }}:
-                {% for party in election.coalition.parties %}
-                {{ party.name }},
+                {% for coalitionPartyId in election.coalition.parties %}
+                {% assign coalitionParty = parties[coalitionPartyId] %}
+                {{ coalitionParty.label }},
                 {% endfor %}
               </p>
               {% endif %}

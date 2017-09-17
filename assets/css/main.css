@@ -412,6 +412,8 @@ html {
 
   .election-info {
     margin-left: 1em;
+    width: 80%; /* Ugly fallback it for the <IE9 crowd ¯\_(ツ)_/¯ */
+    width: calc(100% - 5em); /* Kinda ugly, expensive fix before the refactor. 4em (chart) + 1em (margin) */
   }
 }
 
