@@ -113,6 +113,7 @@
       <li class="breadcrumbs__item">Personas</li>
     </ul>
 
+    {% if person.transparency %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-search" aria-hidden="true"></i> Transparencia
@@ -128,7 +129,9 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
 
+    {% if person.politicalPartyHistory %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-flag" aria-hidden="true"></i> Partidos políticos
@@ -142,7 +145,9 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
 
+    {% if person.publicPositions %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-institution" aria-hidden="true"></i> Cargos públicos
@@ -166,7 +171,9 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
 
+    {% if person.politicsPositions %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-group" aria-hidden="true"></i> Cargos políticos
@@ -190,7 +197,9 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
 
+    {% if person.academicHistory %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Trayectoria académica
@@ -204,7 +213,9 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
 
+    {% if person.professionalHistory %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-briefcase" aria-hidden="true"></i> Trayectoria profesional
@@ -218,7 +229,9 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
 
+    {% if person.elections %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-pie-chart" aria-hidden="true"></i> Elecciones
@@ -287,7 +300,9 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
 
+    {% if person.bibliography %}
     <section>
       <h3 class="heading--3">
         <i class="section__icon fa fa-fw fa-book" aria-hidden="true"></i> Bibliografía
@@ -306,5 +321,6 @@
         {% endfor %}
       </ul>
     </section>
+    {% endif %}
   </body>
 </html>
