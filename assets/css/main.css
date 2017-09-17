@@ -111,7 +111,7 @@ html {
 }
 
 .breadcrumbs__item:after {
-  content: " ⇒ ";
+  content: " » ";
   color: #b0bec5; /* Material Blue Grey 200 */
 }
 
