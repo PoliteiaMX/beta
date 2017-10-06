@@ -39,17 +39,6 @@
       twitter: https://twitter.com/jcromerohicks/
       website: http://www.juancarlosromerohicks.com/
 
-  - id: margarita_zavala
-    name: Margarita Zavala
-    occupation: Ex-diputada Federal
-    confirmation:
-      date: Jun. 2015
-      sourceUrl: https://youtu.be/yYcCg_CjrwY
-    social:
-      facebook: https://facebook.com/MargaritaZavalaMX/
-      website: http://margaritazavala.com/
-      twitter: https://twitter.com/mzavalagc/
-
   - id: miguel_marquez_marquez
     name: Miguel Márquez Márquez
     occupation: Gobernador de Guanajuato
@@ -219,6 +208,17 @@
   - id: juan_ramon_de_la_fuente
     name: Juan Ramón de la Fuente
     occupation: Ex-rector de la UNAM
+
+  - id: margarita_zavala
+    name: Margarita Zavala
+    occupation: Ex-diputada Federal
+    confirmation:
+      date: Jun. 2015
+      sourceUrl: https://youtu.be/yYcCg_CjrwY
+    social:
+      facebook: https://facebook.com/MargaritaZavalaMX/
+      website: http://margaritazavala.com/
+      twitter: https://twitter.com/mzavalagc/
 
   - id: maria_del_jesus_patricio
     name: María de Jesús Patricio Martínez
