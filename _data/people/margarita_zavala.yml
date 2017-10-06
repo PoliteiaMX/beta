@@ -1,0 +1,100 @@
+id: margarita_zavala
+name: Margarita Zavala
+description: Ex-diputada Federal
+
+social:
+  twitter:
+    url: https://twitter.com/mzavalagc/
+    username: mzavalagc
+  facebook:
+    url: https://facebook.com/MargaritaZavalaMX/
+    username: MargaritaZavalaMX
+  instagram:
+    url: https://instagram.com/mzavalagc/
+    username: mzavalagc
+  website:
+    url: http://margaritazavala.com/
+  youtube:
+    title: Margarita Zavala
+    url: https://www.youtube.com/channel/UCR0PikPYpxsFFjGzhjNRl5w/
+
+transparency:
+  - title: Declaración patrimonial (3de3)
+    url: http://margaritazavala.com/wp-content/uploads/2016/12/DeclaracionPatrimonialMZ.pdf
+  - title: Declaración de intereses (3de3)
+    url: http://margaritazavala.com/wp-content/uploads/2016/12/DeclaracionDeInteresesMZ.pdf
+  - title: Declaración fiscal (3de3)
+    url: http://margaritazavala.com/wp-content/uploads/2016/12/DeclaracionFiscalMZ-1.pdf
+
+politicalPartyHistory:
+  - id: pan
+    start: 1984
+    end: 2017
+    duration: 33
+
+publicPositions:
+  - title: Presidenta del Consejo Ciudadano Consultivo del DIF Nacional
+    # Not the actual date
+    start: 2006-12-01
+    # Not the actual date
+    end: 2012-11-30
+
+  - title: Diputada Federal de la LIX Legislatura
+    # Not the actual date
+    start: 2003-01-01
+    # Not the actual date
+    end: 2006-01-01
+
+  - title: Diputada Local en la Asamblea de Representantes del Distrito Federal
+    # Not the actual date
+    start: 1994-01-01
+    # Not the actual date
+    end: 1997-01-01
+
+politicsPositions:
+  # - title: Miembro de la Comisión Permanente del PAN
+  #   start: 2017-08-25
+  #   end: now
+
+  - title: Consejera Nacional del PAN
+    # Not the actual date
+    start: 1991-01-01
+    # Not the actual date
+    end: 2017-10-07
+
+  - title: Secretaria Nacional de Promoción Política de la Mujer del PAN
+    # Not the actual date
+    start: 1999-01-01
+    # Not the actual date
+    end: 2003-10-07
+
+  - title: Directora Jurídica del Comité Ejecutivo Nacional del PAN
+    # Not the actual date
+    start: 1993-01-01
+    # Not the actual date
+    end: 1994-01-01
+
+academicHistory:
+  - degree: Abogada
+    institution: Escuela Libre de Derecho
+    # 1990
+
+bibliography:
+  - title: Biografía
+    source: margaritazavala.com
+    url: http://margaritazavala.com/biografia/
+    sections:
+      - politicalPartyHistory, publicPositions, politicsPositions, academicHistory
+
+  - title: MARGARITA ZAVALA GÓMEZ DEL CAMPO
+    source: Presidencia de la República (Felipe Calderón Hinojosa)
+    url: http://calderon.presidencia.gob.mx/margarita-zavala-gomez-del-campo/
+    sections:
+      - politicalPartyHistory, publicPositions, politicsPositions, academicHistory
+
+  - title: "Hoy quiero compartir con ustedes una de las decisiones más importantes de mi vida."
+    source: Twitter (@Mzavalagc)
+    url: https://twitter.com/Mzavalagc/status/916390361685098496
+    sections:
+      - politicalPartyHistory, publicPositions, politicsPositions, academicHistory
+
