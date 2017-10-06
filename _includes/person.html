@@ -102,6 +102,15 @@
           </li>
           {% endif %}
 
+          {% if person.social.instagram %}
+          <li class="profile__social-item">
+            <a href="{{ person.social.instagram.url }}" class="link link--underline" target="_blank">
+              <i class="fa fa-fw fa-instagram social-icon--instagram profile__social-icon" aria-hidden="true"></i>
+              {{ person.social.instagram.username }}
+            </a>
+          </li>
+          {% endif %}
+
           {% if person.social.youtube %}
           <li class="profile__social-item">
             <a href="{{ person.social.youtube.url }}" class="link link--underline" target="_blank">
