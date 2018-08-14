@@ -20,6 +20,11 @@
     <meta name="twitter:description" content="{{ person.name }}, {{ person.description }}" />
     <meta name="twitter:image" content="{{ site.github.url }}/assets/images/people/{{ person.id }}_192px.jpg" />
 
+    <meta property="og:title" content="Perfil: {{ person.name }}, México • π" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ site.github.url }}" />
+    <meta property="og:image" content="{{ site.github.url }}/assets/images/people/{{ person.id }}_192px.jpg" />
+
     <title>{{ person.name }} • π</title>
 
     <link rel="stylesheet"
@@ -289,15 +294,29 @@
                 {% endif %}
               </p>
               {% if election.partyId %}
-              <p class="election-info__p">{{ party.label }}</p>
+              <p class="election-info__p">
+                <img alt="{{ party.shortLabel }}"
+                     title="{{ party.label }}"
+                     src="{{ party.logos.x1 }}"
+                     srcset="{{ party.logos.x1_5 }} 1.5x, {{ party.logos.x2 }} 2x">
+                {{ party.label }}
+              </p>
               {% endif %}
               {% if election.coalition.name %}
               <p class="election-info__p">
                 {{ election.coalition.name }}:
+                <ul>
                 {% for coalitionPartyId in election.coalition.parties %}
                 {% assign coalitionParty = parties[coalitionPartyId] %}
-                {{ coalitionParty.label }},
+                  <li>
+                    <img alt="{{ coalitionParty.shortLabel }}"
+                     title="{{ coalitionParty.label }}"
+                     src="{{ coalitionParty.logos.x1 }}"
+                     srcset="{{ coalitionParty.logos.x1_5 }} 1.5x, {{ coalitionParty.logos.x2 }} 2x">
+                    {{ coalitionParty.label }}
+                  </li>
                 {% endfor %}
+                </ul>
               </p>
               {% endif %}
               <p class="election-info__p">
